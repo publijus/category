@@ -16,9 +16,9 @@
     "xlsx": "^0.18.5"
   },
   "scripts": {
+    "build": "react-scripts build",
     "start": "react-scripts start",
     "start-server": "node server.js",
-    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "server": "node server.js"
