@@ -64,7 +64,7 @@ const App = () => {
 
     setCategories(updatedCategories);
 
-    axios.post(`${serverUrl}/api/save_categories`, updatedCategories)
+    axios.post(`${serverUrl}/save_categories`, updatedCategories)
       .then(response => {
         console.log('Categories saved successfully:', response.data);
       })
