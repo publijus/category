@@ -20,6 +20,26 @@ button {
   cursor: pointer;
 }
 
+.category-name {
+  min-width: 350px; /* Adjust this width according to the longest category name */
+  display: inline-block;
+}
+
+.category-details {
+  margin-left: 10px;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.category-container {
+  display: flex;
+  align-items: center;
+}
+
+.expand-icon {
+  margin-right: 10px; /* Adjust this margin as needed */
+}
+
 button:hover {
   background-color: #0056b3;
 }

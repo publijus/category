@@ -36,11 +36,20 @@ const Category = ({ category, moveCategory, toggleCollapse, collapsed, hasChildr
           checked={selected}
           onChange={() => onSelectCategory(category.id)}
         />
-        <div
-          onClick={() => hasChildren && toggleCollapse(category.id)}
-          style={{ backgroundColor, flex: 1 }}
-        >
-          {hasChildren ? (collapsed ? '[+]' : '[-]') : ''} {category.name} (<span style={{ fontSize: '12px' }}>ID: {category.id}</span>, <span style={{ fontSize: '14px' }}>Priskirta det.: <span style={{ fontWeight: 'bold', fontSize: '14px' }}>{category.kiekis}</span>, Kartu su subkategorijom: <span style={{ fontWeight: 'bold', fontSize: '14px' }}>{childrenSum}</span></span>)
+        <div className="category-container" style={{ backgroundColor, flex: 1 }}>
+          {hasChildren && (
+            <span className="expand-icon" onClick={() => toggleCollapse(category.id)}>
+              {collapsed ? '[+]' : '[-]'}
+            </span>
+          )}
+          <span className="category-name">{category.name}</span>
+          <span className="category-details">
+            (<span style={{ fontSize: '12px', color: 'gray' }}>ID: {category.id}</span>, 
+            <span style={{ fontSize: '14px', color: 'gray' }}>Priskirta detaliu: 
+            <span style={{ fontWeight: 'bold', fontSize: '14px' }}>{category.kiekis}</span>, 
+            Kartu su subkategorijom: 
+            <span style={{ fontWeight: 'bold', fontSize: '14px' }}>{childrenSum}</span></span>)
+          </span>
         </div>
       </div>
       {!collapsed && children}
