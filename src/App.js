@@ -6,6 +6,8 @@ import { HTML5Backend } from 'react-dnd-html5-backend';
 import Category from './Category';
 import './App.css';
 
+const serverUrl = process.env.REACT_APP_SERVER_URL || 'http://localhost:5000';
+
 const App = () => {
   const [categories, setCategories] = useState([]);
   const [collapsedCategories, setCollapsedCategories] = useState({});
@@ -18,7 +20,7 @@ const App = () => {
 
   const fetchCategories = async () => {
     try {
-      const updatedCategoriesResponse = await axios.get('/categories_updated.json');
+      const updatedCategoriesResponse = await axios.get(`${serverUrl}/categories_updated.json`);
       if (updatedCategoriesResponse.data && updatedCategoriesResponse.data.length > 0) {
         setCategories(updatedCategoriesResponse.data.map(category => ({
           ...category,
@@ -31,7 +33,7 @@ const App = () => {
     } catch (error) {
       console.log('Falling back to categories.json:', error.message);
       try {
-        const response = await axios.get('/categories.json');
+        const response = await axios.get(`${serverUrl}/categories.json`);
         setCategories(response.data.map(category => ({
           ...category,
           parentId: category.parentId || null
@@ -62,7 +64,7 @@ const App = () => {
 
     setCategories(updatedCategories);
 
-    axios.post('/save_categories', updatedCategories)
+    axios.post(`${serverUrl}/save_categories`, updatedCategories)
       .then(response => {
         console.log('Categories saved successfully:', response.data);
       })
@@ -103,7 +105,7 @@ const App = () => {
   };
 
   const handleSave = () => {
-    axios.post('/save_categories', categories)
+    axios.post(`${serverUrl}/save_categories`, categories)
       .then(response => {
         console.log('Categories saved successfully:', response.data);
       })
@@ -113,7 +115,7 @@ const App = () => {
   };
 
   const handleClearChanges = () => {
-    axios.post('/clear_categories')
+    axios.post(`${serverUrl}/clear_categories`)
       .then(response => {
         console.log('Categories cleared successfully');
         fetchCategories();
@@ -138,7 +140,7 @@ const App = () => {
     fileReader.onload = (e) => {
       const importedCategories = JSON.parse(e.target.result);
       setCategories(importedCategories);
-      axios.post('/save_categories', importedCategories)
+      axios.post(`${serverUrl}/save_categories`, importedCategories)
         .then(response => {
           console.log('Categories imported and saved successfully:', response.data);
         })
@@ -181,7 +183,7 @@ const App = () => {
       return category;
     });
     setCategories(updatedCategories);
-    axios.post('/save_categories', updatedCategories)
+    axios.post(`${serverUrl}/save_categories`, updatedCategories)
       .then(response => {
         console.log('Categories marked for deletion successfully:', response.data);
       })
@@ -198,7 +200,7 @@ const App = () => {
       return category;
     });
     setCategories(updatedCategories);
-    axios.post('/save_categories', updatedCategories)
+    axios.post(`${serverUrl}/save_categories`, updatedCategories)
       .then(response => {
         console.log('Categories marked for merge successfully:', response.data);
       })
