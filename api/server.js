@@ -16,9 +16,9 @@ app.use(cors({
 app.use(express.json({ limit: '50mb' }));
 
 // Serve static files from the React app
-app.use(express.static(path.join(__dirname, 'build')));
+app.use(express.static(path.join(__dirname, '../public')));
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'build', 'index.html'));
+  res.sendFile(path.join(__dirname, '../build', 'index.html'));
 });
 
 const publicDir = path.join(__dirname, 'public');
@@ -84,9 +84,8 @@ app.post('/api/clear_categories', (req, res) => {
 
 // This is a catch-all route for handling unknown paths
 app.get('*', (req, res) => {
-  res.status(404).send('Not Found');
+  res.sendFile(path.join(__dirname, '../build', 'index.html'));
 });
-
 
 
 app.listen(PORT, () => {
