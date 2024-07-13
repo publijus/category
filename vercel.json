@@ -1,18 +1,10 @@
 {
    "framework": "create-react-app",
   
-  "builds": [
-    {
-      "src": "server.js",
-      "use": "@vercel/node"
-    },
-    {
-      "src": "public/**/*",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "build/**/*",
-      "use": "@vercel/static"
+   "functions": {
+    "api/server.js": {
+      "memory": 3009,
+      "maxDuration": 30
     }
-  ]
-}
+  }
+} 

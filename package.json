@@ -17,10 +17,11 @@
   },
   "scripts": {
     "build": "react-scripts build",
-    "start-server": "node server.js",
+    "start-server": "node api/server.js",
     "start": "react-scripts start",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "server": "node api/server.js"
   },
   "eslintConfig": {
     "extends": [
