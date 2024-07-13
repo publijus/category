@@ -1,7 +1,5 @@
 {
-  "version": 2,
-  
-  "framework": "create-react-app",
+   "framework": "create-react-app",
   
   "builds": [
     {
@@ -15,20 +13,6 @@
     {
       "src": "build/**/*",
       "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/server.js",
-      "methods": ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
-      "headers": {
-        "Access-Control-Allow-Origin": "*"
-      }
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/build/$1"
     }
   ]
 }
