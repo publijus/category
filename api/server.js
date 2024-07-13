@@ -11,6 +11,13 @@ app.use(express.json({ limit: '50mb' }));
 
 // Serve static files from the React app
 app.use(express.static(path.join(__dirname, 'build')));
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'build', 'index.html'));
+});
+
+const publicDir = path.join(__dirname, 'public');
+const defaultPath = path.join(publicDir, 'categories.json');
+const updatedPath = path.join(publicDir, 'categories_updated.json');
 
 
 app.get('/api/categories.json', (req, res) => {
@@ -73,6 +80,8 @@ app.post('/api/clear_categories', (req, res) => {
 app.get('*', (req, res) => {
   res.status(404).send('Not Found');
 });
+
+
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
