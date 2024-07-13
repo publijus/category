@@ -26,7 +26,7 @@ const defaultPath = path.join(publicDir, 'categories.json');
 const updatedPath = path.join(publicDir, 'categories_updated.json');
 
 
-app.get('/api/categories.json', (req, res) => {
+app.get('/categories.json', (req, res) => {
   const updatedPath = path.join(__dirname, 'public', 'categories_updated.json');
   const defaultPath = path.join(__dirname, 'public', 'categories.json');
 
@@ -46,7 +46,7 @@ app.get('/api/categories.json', (req, res) => {
   });
 });
 
-app.get('/api/categories_updated.json', (req, res) => {
+app.get('/categories_updated.json', (req, res) => {
   fs.readFile(path.join(__dirname, 'public', 'categories_updated.json'), 'utf8', (err, data) => {
     if (err) {
       console.error('Error reading categories_updated.json:', err);
