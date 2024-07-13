@@ -18,17 +18,17 @@ app.use(express.json({ limit: '50mb' }));
 // Serve static files from the React app
 app.use(express.static(path.join(__dirname, '../public')));
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '../build', 'index.html'));
+  res.sendFile(path.join(__dirname, '../public', 'index.html'));
 });
 
-const publicDir = path.join(__dirname, 'public');
+const publicDir = path.join(__dirname, '../public');
 const defaultPath = path.join(publicDir, 'categories.json');
 const updatedPath = path.join(publicDir, 'categories_updated.json');
 
 
 app.get('/categories.json', (req, res) => {
-  const updatedPath = path.join(__dirname, 'public', 'categories_updated.json');
-  const defaultPath = path.join(__dirname, 'public', 'categories.json');
+  const updatedPath = path.join(__dirname, '../public', 'categories_updated.json');
+  const defaultPath = path.join(__dirname, '../public', 'categories.json');
 
   fs.readFile(updatedPath, 'utf8', (err, data) => {
     if (!err && data && data.length > 0 && JSON.parse(data).length > 0) {
@@ -47,7 +47,7 @@ app.get('/categories.json', (req, res) => {
 });
 
 app.get('/categories_updated.json', (req, res) => {
-  fs.readFile(path.join(__dirname, 'public', 'categories_updated.json'), 'utf8', (err, data) => {
+  fs.readFile(path.join(__dirname, '../public', 'categories_updated.json'), 'utf8', (err, data) => {
     if (err) {
       console.error('Error reading categories_updated.json:', err);
       res.status(500).send('Internal Server Error');
@@ -59,7 +59,7 @@ app.get('/categories_updated.json', (req, res) => {
 
 app.post('/api/save_categories', (req, res) => {
   const categories = req.body;
-  fs.writeFile(path.join(__dirname, 'public', 'categories_updated.json'), JSON.stringify(categories, null, 2), (err) => {
+  fs.writeFile(path.join(__dirname, '../public', 'categories_updated.json'), JSON.stringify(categories, null, 2), (err) => {
     if (err) {
       console.error('Error writing categories_updated.json:', err);
       res.status(500).send('Internal Server Error');
@@ -71,7 +71,7 @@ app.post('/api/save_categories', (req, res) => {
 });
 
 app.post('/api/clear_categories', (req, res) => {
-  fs.writeFile(path.join(__dirname, 'public', 'categories_updated.json'), JSON.stringify([], null, 2), (err) => {
+  fs.writeFile(path.join(__dirname, '../public', 'categories_updated.json'), JSON.stringify([], null, 2), (err) => {
     if (err) {
       console.error('Error clearing categories_updated.json:', err);
       res.status(500).send('Internal Server Error');
@@ -82,11 +82,9 @@ app.post('/api/clear_categories', (req, res) => {
   });
 });
 
-// This is a catch-all route for handling unknown paths
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '../build', 'index.html'));
+  res.sendFile(path.join(__dirname, '../public', 'index.html'));
 });
-
 
 app.listen(PORT, () => {
   console.log('Server is running on port ${PORT}');
