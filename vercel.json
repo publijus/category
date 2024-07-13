@@ -1,5 +1,8 @@
 {
   "version": 2,
+  
+  "framework": "create-react-app",
+  
   "builds": [
     {
       "src": "server.js",
