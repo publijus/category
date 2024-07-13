@@ -18,6 +18,24 @@ const App = () => {
     fetchCategories();
   }, []);
 
+  const testApiConnection = async () => {
+    try {
+      const response = await axios.post('/api/test', { test: 'data' }, {
+        headers: {
+          'Content-Type': 'application/json',
+          // Jei naudojate autentifikaciją, čia galite pridėti token'ą:
+          // 'Authorization': 'Bearer YOUR_TOKEN'
+        }
+      });
+      console.log('Response:', response.data);
+      // Čia galite atnaujinti komponento būseną, kad parodytumėte žinutę vartotojui
+      // setMessage(response.data.message);
+    } catch (error) {
+      console.error('Error:', error);
+      // setMessage('Klaida: ' + error.message);
+    }
+  };
+
   const fetchCategories = async () => {
     try {
       const updatedCategoriesResponse = await axios.get('/categories_updated.json');
@@ -238,6 +256,7 @@ const App = () => {
       <h1>Kategorijų medis</h1>
       <button onClick={handleCollapseAll}>Suskleisti visas</button>
       <button onClick={handleExpandAll}>Iškleisti visas</button>
+      <button onClick={testApiConnection}>Testuoti API</button>
       <button onClick={handleSave}>Išsaugoti</button>
       <button onClick={handleClearChanges}>Valyti pakeitimus</button>
       <button onClick={handleExportTree}>Eksportuoti medi (.json)</button>
