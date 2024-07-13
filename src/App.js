@@ -20,7 +20,7 @@ const App = () => {
 
   const fetchCategories = async () => {
     try {
-      const updatedCategoriesResponse = await axios.get(`/api/categories_updated.json`);
+      const updatedCategoriesResponse = await axios.get(`/categories_updated.json`);
       if (updatedCategoriesResponse.data && updatedCategoriesResponse.data.length > 0) {
         setCategories(updatedCategoriesResponse.data.map(category => ({
           ...category,
@@ -33,7 +33,7 @@ const App = () => {
     } catch (error) {
       console.log('Falling back to categories.json:', error.message);
       try {
-        const response = await axios.get(`/api/categories.json`);
+        const response = await axios.get(`/categories.json`);
         setCategories(response.data.map(category => ({
           ...category,
           parentId: category.parentId || null
