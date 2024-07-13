@@ -9,6 +9,9 @@ const PORT = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json({ limit: '50mb' }));
 
+// Serve static files from the React app
+app.use(express.static(path.join(__dirname, 'build')));
+
 
 app.get('/categories.json', (req, res) => {
   const updatedPath = path.join(__dirname, 'public', 'categories_updated.json');
