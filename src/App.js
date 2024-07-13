@@ -105,7 +105,7 @@ const App = () => {
   };
 
   const handleSave = () => {
-    axios.post(`${serverUrl}/api/save_categories`, categories)
+    axios.post(`${serverUrl}/save_categories`, categories)
       .then(response => {
         console.log('Categories saved successfully:', response.data);
       })
