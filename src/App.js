@@ -18,23 +18,6 @@ const App = () => {
     fetchCategories();
   }, []);
 
-  const testApiConnection = async () => {
-    try {
-      const response = await axios.post('/api/test', { test: 'data' }, {
-        headers: {
-          'Content-Type': 'application/json',
-          // Jei naudojate autentifikaciją, čia galite pridėti token'ą:
-          // 'Authorization': 'Bearer YOUR_TOKEN'
-        }
-      });
-      console.log('Response:', response.data);
-      // Čia galite atnaujinti komponento būseną, kad parodytumėte žinutę vartotojui
-      // setMessage(response.data.message);
-    } catch (error) {
-      console.error('Error:', error);
-      // setMessage('Klaida: ' + error.message);
-    }
-  };
 
   const fetchCategories = async () => {
     try {
@@ -123,7 +106,7 @@ const App = () => {
   };
 
   const handleSave = () => {
-    axios.post(`${serverUrl}/save_categories`, categories)
+    axios.post(`/api/save_categories`, categories)
       .then(response => {
         console.log('Categories saved successfully:', response.data);
       })
@@ -229,7 +212,7 @@ const App = () => {
 
   const renderCategories = (parentId = null) => {
     const filteredCategories = categories.filter(category => category.parentId === parentId);
-    console.log('Rendering categories for parentId: ${parentId}', filteredCategories);
+    console.log(`Rendering categories for parentId: ${parentId}`, filteredCategories);
     return (
       <ul>
         {filteredCategories.map(category => (
@@ -256,7 +239,6 @@ const App = () => {
       <h1>Kategorijų medis</h1>
       <button onClick={handleCollapseAll}>Suskleisti visas</button>
       <button onClick={handleExpandAll}>Iškleisti visas</button>
-      <button onClick={testApiConnection}>Testuoti API</button>
       <button onClick={handleSave}>Išsaugoti</button>
       <button onClick={handleClearChanges}>Valyti pakeitimus</button>
       <button onClick={handleExportTree}>Eksportuoti medi (.json)</button>

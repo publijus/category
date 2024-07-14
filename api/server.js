@@ -25,12 +25,6 @@ const publicDir = path.join(__dirname, '../public');
 const defaultPath = path.join(publicDir, 'categories.json');
 const updatedPath = path.join(publicDir, 'categories_updated.json');
 
-app.post('/api/test', (req, res) => {
-  console.log('POST request received at /api/test');
-  console.log('Headers:', req.headers);
-  console.log('Body:', req.body);
-  res.status(200).json({ message: 'Gerai' });
-});
 
 
 app.get('/categories.json', (req, res) => {
@@ -66,13 +60,19 @@ app.get('/categories_updated.json', (req, res) => {
 
 app.post('/api/save_categories', (req, res) => {
   const categories = req.body;
-  fs.writeFile(path.join(__dirname, '../public', 'categories_updated.json'), JSON.stringify(categories, null, 2), (err) => {
+  
+  const filePath = path.join(__dirname, '../public', 'categories_updated.json');
+
+  console.log(`Bandoma išsaugoti categories_updated.json į: ${filePath}`);
+  console.log(`Gauta kategorijų: ${Object.keys(categories).length}`);
+  
+  fs.writeFile(filePath, JSON.stringify(categories, null, 2), (err) => {
     if (err) {
       console.error('Error writing categories_updated.json:', err);
       res.status(500).send('Internal Server Error');
       return;
     }
-    console.log('Categories saved:', categories);
+    console.log('Categories saved successfully');
     res.status(200).send({ message: 'Categories saved successfully' });
   });
 });
@@ -94,5 +94,5 @@ app.get('*', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log('Server is running on port ${PORT}');
+  console.log(`Server is running on port ${PORT}`);
 });
