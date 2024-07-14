@@ -2,7 +2,6 @@ const express = require('express');
 const fs = require('fs');
 const path = require('path');
 const cors = require('cors');
-const apiRoutes = require('./api/routes');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -15,8 +14,6 @@ app.use(cors({
 }));
 
 app.use(express.json({ limit: '50mb' }));
-
-app.use('/api', apiRoutes);
 
 // Serve static files from the React app
 app.use(express.static(path.join(__dirname, '../public')));
@@ -61,7 +58,7 @@ app.get('/categories_updated.json', (req, res) => {
   });
 });
 
-app.post('/api/save_categories', (req, res) => {
+app.post('/save_categories', (req, res) => {
   const categories = req.body;
   
   const filePath = path.join(__dirname, '../public', 'categories_updated.json');
@@ -80,7 +77,7 @@ app.post('/api/save_categories', (req, res) => {
   });
 });
 
-app.post('/api/clear_categories', (req, res) => {
+app.post('/clear_categories', (req, res) => {
   fs.writeFile(path.join(__dirname, '../public', 'categories_updated.json'), JSON.stringify([], null, 2), (err) => {
     if (err) {
       console.error('Error clearing categories_updated.json:', err);

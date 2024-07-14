@@ -65,7 +65,7 @@ const App = () => {
 
     setCategories(updatedCategories);
 
-    axios.post('/api/save_categories', updatedCategories)
+    axios.post('/save_categories', updatedCategories)
       .then(response => {
         console.log('Categories saved successfully:', response.data);
       })
@@ -106,7 +106,7 @@ const App = () => {
   };
 
   const handleSave = () => {
-    axios.post(`/api/save_categories`, categories)
+    axios.post(`/save_categories`, categories)
       .then(response => {
         console.log('Categories saved successfully:', response.data);
       })
@@ -116,7 +116,7 @@ const App = () => {
   };
 
   const handleClearChanges = () => {
-    axios.post('/api/clear_categories')
+    axios.post('/clear_categories')
       .then(response => {
         console.log('Categories cleared successfully');
         fetchCategories();
@@ -141,7 +141,7 @@ const App = () => {
     fileReader.onload = (e) => {
       const importedCategories = JSON.parse(e.target.result);
       setCategories(importedCategories);
-      axios.post('/api/save_categories', importedCategories)
+      axios.post('/save_categories', importedCategories)
         .then(response => {
           console.log('Categories imported and saved successfully:', response.data);
         })
@@ -184,7 +184,7 @@ const App = () => {
       return category;
     });
     setCategories(updatedCategories);
-    axios.post('/api/save_categories', updatedCategories)
+    axios.post('/save_categories', updatedCategories)
       .then(response => {
         console.log('Categories marked for deletion successfully:', response.data);
       })
@@ -201,7 +201,7 @@ const App = () => {
       return category;
     });
     setCategories(updatedCategories);
-    axios.post('/api/save_categories', updatedCategories)
+    axios.post('/save_categories', updatedCategories)
       .then(response => {
         console.log('Categories marked for merge successfully:', response.data);
       })
