@@ -2,7 +2,6 @@
   "name": "category-tree",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:5000",
   "dependencies": {
     "axios": "^1.7.2",
     "cors": "^2.8.5",
@@ -17,9 +16,9 @@
     "xlsx": "^0.18.5"
   },
   "scripts": {
-    "build": "react-scripts build && mv build/* public/",
+    "build": "react-scripts build",
     "start": "react-scripts start",
-    "server": "node server.js",
+    "server-start": "node server.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "dev": "react-scripts start"
