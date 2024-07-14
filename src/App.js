@@ -6,7 +6,7 @@ import { HTML5Backend } from 'react-dnd-html5-backend';
 import Category from './Category';
 import './App.css';
 
-const serverUrl = process.env.REACT_APP_SERVER_URL || '';
+//const serverUrl = process.env.REACT_APP_SERVER_URL || '';
 
 const App = () => {
   const [categories, setCategories] = useState([]);
