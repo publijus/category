@@ -240,7 +240,7 @@ const App = () => {
       <button onClick={handleCollapseAll}>Suskleisti visas</button>
       <button onClick={handleExpandAll}>Iškleisti visas</button>
       <button onClick={handleSave}>Išsaugoti</button>
-      <button onClick={handleClearChanges}>Valyti pakeitimus</button>
+      <button onClick={handleClearChanges}>Atstatyti pradini medi</button>
       <button onClick={handleExportTree}>Eksportuoti medi (.json)</button>
       <input
         type="file"
