@@ -212,7 +212,7 @@ const App = () => {
 
   const renderCategories = (parentId = null) => {
     const filteredCategories = categories.filter(category => category.parentId === parentId);
-    console.log(`Rendering categories for parentId: ${parentId}`, filteredCategories);
+//    console.log(`Rendering categories for parentId: ${parentId}`, filteredCategories);
     return (
       <ul>
         {filteredCategories.map(category => (
