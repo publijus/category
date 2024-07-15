@@ -176,6 +176,10 @@ const App = () => {
     setSelectedCategories(newSelectedCategories);
   };
 
+  const clearSelectedCategories = () => {
+    setSelectedCategories(new Set());
+  };
+
   const handleMarkForDeletion = () => {
     const updatedCategories = categories.map(category => {
       if (selectedCategories.has(category.id)) {
@@ -187,6 +191,7 @@ const App = () => {
     axios.post('/save_categories', updatedCategories)
       .then(response => {
         console.log('Categories marked for deletion successfully:', response.data);
+        clearSelectedCategories();
       })
       .catch(error => {
         console.error('Error marking categories for deletion:', error);
@@ -204,6 +209,7 @@ const App = () => {
     axios.post('/save_categories', updatedCategories)
       .then(response => {
         console.log('Categories marked for merge successfully:', response.data);
+        clearSelectedCategories();
       })
       .catch(error => {
         console.error('Error marking categories for merge:', error);
