@@ -240,12 +240,14 @@ const App = () => {
     );
   };
 
+//pasilieku jei reikes mygtuko
+//      <button onClick={handleSave}>Išsaugoti</button>
+
   return (
     <div className="App">
       <h1>Kategorijų medis</h1>
       <button onClick={handleCollapseAll}>Suskleisti visas</button>
       <button onClick={handleExpandAll}>Iškleisti visas</button>
-      <button onClick={handleSave}>Išsaugoti</button>
       <button onClick={handleClearChanges}>Atstatyti pradini medi</button>
       <button onClick={handleExportTree}>Eksportuoti medi (.json)</button>
       <input
