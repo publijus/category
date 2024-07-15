@@ -45,7 +45,7 @@ const Category = ({ category, moveCategory, toggleCollapse, collapsed, hasChildr
           <span className="category-name">{category.name}</span>
           <span className="category-details">
             (<span style={{ fontSize: '12px', color: 'gray' }}>ID: {category.id}</span>, 
-            <span style={{ fontSize: '14px', color: 'gray' }}>Priskirta detaliu: 
+            <span style={{ fontSize: '14px', color: 'gray' }}>Priskirta detaliu,kurios yra sandelyje: 
             <span style={{ fontWeight: 'bold', fontSize: '14px' }}>{category.kiekis}</span>, 
             Kartu su subkategorijom: 
             <span style={{ fontWeight: 'bold', fontSize: '14px' }}>{childrenSum}</span></span>)
