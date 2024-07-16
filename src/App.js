@@ -15,6 +15,7 @@ const App = () => {
   const [selectedCategories, setSelectedCategories] = useState(new Set());
   const [newCategoryName, setNewCategoryName] = useState('');
   const [renameInputVisible, setRenameInputVisible] = useState(false);
+  const [newCategoryInputVisible, setNewCategoryInputVisible] = useState(false);
   const fileInputRef = React.createRef();
 
   useEffect(() => {
@@ -235,7 +236,7 @@ const App = () => {
         return {
           ...category,
           name: `${newCategoryName} (<s>${originalCategory.name}</s>)`,
-          updated: true
+          renamed: true
         };
       }
       return category;
@@ -253,6 +254,38 @@ const App = () => {
         console.error('Error renaming category:', error);
       });
   };
+
+  const handleCreateCategory = () => {
+    if (selectedCategories.size !== 1) {
+      alert('Reikia pažymėti kategoriją prie kurios kurti naują');
+      return;
+    }
+
+    const selectedId = Array.from(selectedCategories)[0];
+    const newCategory = {
+      id: 'new', // Assuming the ID is generated like this. Adjust as needed.
+      name: newCategoryName,
+      parentId: selectedId,
+      kiekis: 0,
+      childrenSum: 0,
+      new: true // Mark this as a new category
+    };
+
+    const updatedCategories = [...categories, newCategory];
+
+    setCategories(updatedCategories);
+    axios.post('/save_categories', updatedCategories)
+      .then(response => {
+        console.log('Category created successfully:', response.data);
+        setNewCategoryInputVisible(false);
+        setNewCategoryName('');
+        clearSelectedCategories();
+      })
+      .catch(error => {
+        console.error('Error creating category:', error);
+      });
+  };
+
 
   const renderCategories = (parentId = null) => {
     const filteredCategories = categories.filter(category => category.parentId === parentId);
@@ -300,6 +333,7 @@ const App = () => {
         <button onClick={handleMarkForDeletion}>Pažymėti kad ištrinti</button>
         <button onClick={handleMarkForMerge}>Pažymėti kad jungti su panašia</button>
         <button onClick={() => setRenameInputVisible(true)}>Keisti pavadinimą</button>
+        <button onClick={() => setNewCategoryInputVisible(true)}>Sukurti kategoriją</button> {/* New button for creating category */}
         {renameInputVisible && (
           <div>
             <input
@@ -309,6 +343,17 @@ const App = () => {
               placeholder="Įveskite naują pavadinimą"
             />
             <button onClick={handleRenameCategory}>Patvirtinti</button>
+          </div>
+        )}
+        {newCategoryInputVisible && (
+          <div>
+            <input
+              type="text"
+              value={newCategoryName}
+              onChange={(e) => setNewCategoryName(e.target.value)}
+              placeholder="Įveskite naują kategoriją"
+            />
+            <button onClick={handleCreateCategory}>Patvirtinti</button>
           </div>
         )}
       </div>

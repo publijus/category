@@ -26,31 +26,34 @@ const Category = ({ category, moveCategory, toggleCollapse, collapsed, hasChildr
     backgroundColor = 'lightblue';
   } else if (category.updated) {
     backgroundColor = 'yellow';
+  } else if (category.new) {
+    backgroundColor = 'lightgreen';
+  } else if (category.renamed) {
+    backgroundColor = 'lightgrey';
   }
 
+ 
   return (
     <li ref={node => drag(drop(node))} style={{ opacity: isDragging ? 0.5 : 1 }}>
-      <div style={{ display: 'flex', alignItems: 'center' }}>
+      <div className="category-container" style={{ backgroundColor, flex: 1 }}>
         <input
           type="checkbox"
           checked={selected}
           onChange={() => onSelectCategory(category.id)}
         />
-        <div className="category-container" style={{ backgroundColor, flex: 1 }}>
-          {hasChildren && (
-            <span className="expand-icon" onClick={() => toggleCollapse(category.id)}>
-              {collapsed ? '[+]' : '[-]'}
-            </span>
-          )}
-          <span className="category-name" dangerouslySetInnerHTML={{ __html: category.name }}></span>
-          <span className="category-details">
-            (<span style={{ fontSize: '12px', color: 'gray' }}>ID: {category.id}</span>, 
-            <span style={{ fontSize: '14px', color: 'gray' }}>Priskirta detaliu,kurios yra sandelyje: 
-            <span style={{ fontWeight: 'bold', fontSize: '14px' }}>{category.kiekis}</span>, 
-            Kartu su subkategorijom: 
-            <span style={{ fontWeight: 'bold', fontSize: '14px' }}>{childrenSum}</span></span>)
+        {hasChildren && (
+          <span className="expand-icon" onClick={() => toggleCollapse(category.id)}>
+            {collapsed ? '[+]' : '[-]'}
           </span>
-        </div>
+        )}
+        <span className="category-name" dangerouslySetInnerHTML={{ __html: category.name }}></span>
+        <span className="category-details">
+          (<span style={{ fontSize: '12px', color: 'gray' }}>ID: {category.id}</span>, 
+          <span style={{ fontSize: '14px', color: 'gray' }}>Priskirta detaliu,kurios yra sandelyje: 
+          <span style={{ fontWeight: 'bold', fontSize: '14px' }}>{category.kiekis}</span>, 
+          Kartu su subkategorijom: 
+          <span style={{ fontWeight: 'bold', fontSize: '14px' }}>{childrenSum}</span></span>)
+        </span>
       </div>
       {!collapsed && children}
     </li>
