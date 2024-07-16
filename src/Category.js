@@ -42,7 +42,7 @@ const Category = ({ category, moveCategory, toggleCollapse, collapsed, hasChildr
               {collapsed ? '[+]' : '[-]'}
             </span>
           )}
-          <span className="category-name">{category.name}</span>
+          <span className="category-name" dangerouslySetInnerHTML={{ __html: category.name }}></span>
           <span className="category-details">
             (<span style={{ fontSize: '12px', color: 'gray' }}>ID: {category.id}</span>, 
             <span style={{ fontSize: '14px', color: 'gray' }}>Priskirta detaliu,kurios yra sandelyje: 

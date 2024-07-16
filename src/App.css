@@ -1,14 +1,29 @@
 .App {
   font-family: Arial, sans-serif;
-  margin: 20px;
+  margin: 0; /* Remove margin to fit the full viewport height */
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Full height of the viewport */
+  overflow: hidden; /* Prevent the main page from scrolling */
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1000; /* Ensure it's above other content */
+  padding: 0px;
+  border-bottom: 1px solid #ccc;
 }
 
 .category-list {
-  margin-top: 20px;
+  flex: 1;
+  overflow-y: auto; /* Only the category list is scrollable */
+  padding: 0px;
 }
 
 .category-list div {
-  margin-bottom: 10px;
+  margin-bottom: 0px; /* Reduced from 10px to 5px */
 }
 
 button {
@@ -18,6 +33,10 @@ button {
   color: white;
   border: none;
   cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
 }
 
 .category-name {
@@ -34,12 +53,9 @@ button {
 .category-container {
   display: flex;
   align-items: center;
+  margin-bottom: 5px; /* Add this line to adjust the margin */
 }
 
 .expand-icon {
   margin-right: 10px; /* Adjust this margin as needed */
-}
-
-button:hover {
-  background-color: #0056b3;
 }

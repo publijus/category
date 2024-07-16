@@ -10,8 +10,11 @@ import './App.css';
 
 const App = () => {
   const [categories, setCategories] = useState([]);
+  const [originalCategories, setOriginalCategories] = useState([]);
   const [collapsedCategories, setCollapsedCategories] = useState({});
   const [selectedCategories, setSelectedCategories] = useState(new Set());
+  const [newCategoryName, setNewCategoryName] = useState('');
+  const [renameInputVisible, setRenameInputVisible] = useState(false);
   const fileInputRef = React.createRef();
 
   useEffect(() => {
@@ -35,10 +38,12 @@ const App = () => {
       console.log('Falling back to categories.json:', error.message);
       try {
         const response = await axios.get('/categories.json');
-        setCategories(response.data.map(category => ({
+        const originalData = response.data.map(category => ({
           ...category,
           parentId: category.parentId || null
-        })));
+        }));
+        setOriginalCategories(originalData);
+        setCategories(originalData);
         console.log('Using categories from categories.json');
       } catch (fetchError) {
         console.error('Error fetching data:', fetchError);
@@ -216,6 +221,39 @@ const App = () => {
       });
   };
 
+  const handleRenameCategory = () => {
+    if (selectedCategories.size !== 1) {
+      alert('Please select exactly one category to rename.');
+      return;
+    }
+
+    const selectedId = Array.from(selectedCategories)[0];
+    const originalCategory = originalCategories.find(category => category.id === selectedId);
+
+    const updatedCategories = categories.map(category => {
+      if (category.id === selectedId) {
+        return {
+          ...category,
+          name: `${newCategoryName} (<s>${originalCategory.name}</s>)`,
+          updated: true
+        };
+      }
+      return category;
+    });
+
+    setCategories(updatedCategories);
+    axios.post('/save_categories', updatedCategories)
+      .then(response => {
+        console.log('Category renamed successfully:', response.data);
+        setRenameInputVisible(false);
+        setNewCategoryName('');
+        clearSelectedCategories();
+      })
+      .catch(error => {
+        console.error('Error renaming category:', error);
+      });
+  };
+
   const renderCategories = (parentId = null) => {
     const filteredCategories = categories.filter(category => category.parentId === parentId);
 //    console.log(`Rendering categories for parentId: ${parentId}`, filteredCategories);
@@ -245,24 +283,40 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Kategorijų medis</h1>
-      <button onClick={handleCollapseAll}>Suskleisti visas</button>
-      <button onClick={handleExpandAll}>Iškleisti visas</button>
-      <button onClick={handleClearChanges}>Atstatyti pradini medi</button>
-      <button onClick={handleExportTree}>Eksportuoti medi (.json)</button>
-      <input
-        type="file"
-        accept=".json"
-        ref={fileInputRef}
-        style={{ display: 'none' }}
-        onChange={handleImportTree}
-      />
-      <button onClick={() => fileInputRef.current.click()}>Importuoti medi (.json)</button>
-      <button onClick={handleMarkForDeletion}>Pažymėti kad ištrinti</button>
-      <button onClick={handleMarkForMerge}>Pažymėti kad jungti su panašia</button>
-      <DndProvider backend={HTML5Backend}>
-        {renderCategories()}
-      </DndProvider>
+      <div className="header"> {/* Highlight: Fixed header */}
+        <h1>Kategorijų medis</h1>
+        <button onClick={handleCollapseAll}>Suskleisti visas</button>
+        <button onClick={handleExpandAll}>Iškleisti visas</button>
+        <button onClick={handleClearChanges}>Atstatyti pradini medi</button>
+        <button onClick={handleExportTree}>Eksportuoti medi (.json)</button>
+        <input
+          type="file"
+          accept=".json"
+          ref={fileInputRef}
+          style={{ display: 'none' }}
+          onChange={handleImportTree}
+        />
+        <button onClick={() => fileInputRef.current.click()}>Importuoti medi (.json)</button>
+        <button onClick={handleMarkForDeletion}>Pažymėti kad ištrinti</button>
+        <button onClick={handleMarkForMerge}>Pažymėti kad jungti su panašia</button>
+        <button onClick={() => setRenameInputVisible(true)}>Keisti pavadinimą</button>
+        {renameInputVisible && (
+          <div>
+            <input
+              type="text"
+              value={newCategoryName}
+              onChange={(e) => setNewCategoryName(e.target.value)}
+              placeholder="Įveskite naują pavadinimą"
+            />
+            <button onClick={handleRenameCategory}>Patvirtinti</button>
+          </div>
+        )}
+      </div>
+      <div className="category-list"> {/* Highlight: Scrollable category list */}
+        <DndProvider backend={HTML5Backend}>
+          {renderCategories()}
+        </DndProvider>
+      </div>
     </div>
   );
 };
