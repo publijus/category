@@ -40,7 +40,7 @@ button:hover {
 }
 
 .category-name {
-  min-width: 350px; /* Adjust this width according to the longest category name */
+  min-width: 380px; /* Adjust this width according to the longest category name */
   display: inline-block;
 }
 
@@ -58,4 +58,32 @@ button:hover {
 
 .expand-icon {
   margin-right: 10px; /* Adjust this margin as needed */
+}
+
+.category-comment {
+  margin-top: 0px;
+  font-style: italic;
+  color: rgb(3, 0, 0);
+  background-color: #e4aef1;
+}
+
+.button-delete {
+  background-color: red;
+  color: black;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.button-merge {
+  background-color: lightblue;
+  color: black;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Optionally, add some hover effects for better UX */
+.button-delete:hover, .button-merge:hover {
+  opacity: 0.8;
 }

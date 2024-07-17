@@ -17,6 +17,9 @@ const App = () => {
   const [renameInputVisible, setRenameInputVisible] = useState(false);
   const [newCategoryInputVisible, setNewCategoryInputVisible] = useState(false);
   const [newCategoryIdCounter, setNewCategoryIdCounter] = useState(1);
+  const [tooltips, setTooltips] = useState({});
+  const [tooltipInputVisible, setTooltipInputVisible] = useState(false);
+  const [tooltipText, setTooltipText] = useState('');
   const fileInputRef = React.createRef();
 
   useEffect(() => {
@@ -28,10 +31,17 @@ const App = () => {
     try {
       const updatedCategoriesResponse = await axios.get('/categories_updated.json');
       if (updatedCategoriesResponse.data && updatedCategoriesResponse.data.length > 0) {
-        setCategories(updatedCategoriesResponse.data.map(category => ({
+        const updatedCategories = updatedCategoriesResponse.data;
+        setCategories(updatedCategories.map(category => ({
           ...category,
           parentId: category.parentId || null
         })));
+        setTooltips(updatedCategories.reduce((acc, category) => {
+          if (category.tooltip) {
+            acc[category.id] = category.tooltip;
+          }
+          return acc;
+        }, {}));
         console.log('Using categories from categories_updated.json');
       } else {
         throw new Error('Empty or invalid categories_updated.json');
@@ -51,11 +61,11 @@ const App = () => {
         console.error('Error fetching data:', fetchError);
       }
     }
-  };
+  };  
 
   const moveCategory = (id, atIndex, newParentId = null) => {
     const { category, index } = findCategory(id);
-    const updatedCategory = { ...category, updated: true };
+    const updatedCategory = { ...category, edit: 'moved', updated: true };
 
     if (newParentId && isDescendant(id, newParentId)) {
       console.error('Cannot move a category to one of its descendants.');
@@ -133,7 +143,11 @@ const App = () => {
   };
 
   const handleSave = () => {
-    axios.post(`/save_categories`, categories)
+    const categoriesWithTooltips = categories.map(category => ({
+      ...category,
+      tooltip: tooltips[category.id]
+    }));
+    axios.post(`/save_categories`, categoriesWithTooltips)
       .then(response => {
         console.log('Categories saved successfully:', response.data);
       })
@@ -309,6 +323,36 @@ const App = () => {
       });
   };
 
+  const handleAddTooltip = () => {
+    if (selectedCategories.size === 0) {
+      alert('Reikia pažymėti bent vieną kategoriją, kuriai pridėti komentarą');
+      return;
+    }
+  
+    const updatedCategories = categories.map(category => {
+      if (selectedCategories.has(category.id)) {
+        return { ...category, tooltip: tooltipText };
+      }
+      return category;
+    });
+  
+    setCategories(updatedCategories);
+  
+    setTooltipInputVisible(false);
+    setTooltipText('');
+    clearSelectedCategories();
+  
+    axios.post('/save_categories', updatedCategories)
+      .then(response => {
+        console.log('Categories updated with comments successfully:', response.data);
+      })
+      .catch(error => {
+        console.error('Error saving categories with comments:', error);
+      });
+  };
+  
+  
+  
 
   const renderCategories = (parentId = null) => {
     const filteredCategories = categories.filter(category => category.parentId === parentId);
@@ -326,6 +370,7 @@ const App = () => {
             childrenSum={getChildrenSum(category.id)}
             onSelectCategory={handleSelectCategory}
             selected={selectedCategories.has(category.id)}
+            tooltip={tooltips[category.id]}
           >
             {renderCategories(category.id)}
           </Category>
@@ -353,10 +398,11 @@ const App = () => {
           onChange={handleImportTree}
         />
         <button onClick={() => fileInputRef.current.click()}>Importuoti medi (.json)</button>
-        <button onClick={handleMarkForDeletion}>Pažymėti kad ištrinti</button>
-        <button onClick={handleMarkForMerge}>Pažymėti kad jungti su panašia</button>
+        <button className="button-delete" onClick={handleMarkForDeletion}>Pažymėti kad ištrinti</button>
+        <button className="button-merge" onClick={handleMarkForMerge}>Pažymėti kad jungti su panašia</button>
         <button onClick={() => setRenameInputVisible(true)}>Keisti pavadinimą</button>
-        <button onClick={() => setNewCategoryInputVisible(true)}>Sukurti kategoriją</button> {/* New button for creating category */}
+        <button onClick={() => setNewCategoryInputVisible(true)}>Sukurti kategoriją</button>
+        <button onClick={() => setTooltipInputVisible(true)}>Pridėti komentarą</button>
         {renameInputVisible && (
           <div>
             <input
@@ -377,6 +423,16 @@ const App = () => {
               placeholder="Įveskite naują kategoriją"
             />
             <button onClick={handleCreateCategory}>Patvirtinti</button>
+          </div>
+        )}
+        {tooltipInputVisible && (
+          <div>
+            <textarea
+              value={tooltipText}
+              onChange={(e) => setTooltipText(e.target.value)}
+              placeholder="Įveskite komentarą"
+            />
+            <button onClick={handleAddTooltip}>Patvirtinti</button>
           </div>
         )}
       </div>
