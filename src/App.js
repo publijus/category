@@ -16,6 +16,7 @@ const App = () => {
   const [newCategoryName, setNewCategoryName] = useState('');
   const [renameInputVisible, setRenameInputVisible] = useState(false);
   const [newCategoryInputVisible, setNewCategoryInputVisible] = useState(false);
+  const [newCategoryIdCounter, setNewCategoryIdCounter] = useState(1);
   const fileInputRef = React.createRef();
 
   useEffect(() => {
@@ -56,6 +57,11 @@ const App = () => {
     const { category, index } = findCategory(id);
     const updatedCategory = { ...category, updated: true };
 
+    if (newParentId && isDescendant(id, newParentId)) {
+      console.error('Cannot move a category to one of its descendants.');
+      return;
+    }
+
     if (newParentId) {
       const newParentCategory = categories.find(cat => cat.id === newParentId);
       updatedCategory.depth = newParentCategory.depth + 1;
@@ -78,6 +84,21 @@ const App = () => {
       .catch(error => {
         console.error('Error saving categories:', error);
       });
+  };
+
+  const isDescendant = (parentId, childId) => {
+    const getParent = (id) => categories.find(cat => cat.id === id)?.parentId;
+  
+    let currentId = getParent(childId);
+  
+    while (currentId) {
+      if (currentId === parentId) {
+        return true;
+      }
+      currentId = getParent(currentId);
+    }
+  
+    return false;
   };
 
   const findCategory = (id) => {
@@ -263,7 +284,7 @@ const App = () => {
 
     const selectedId = Array.from(selectedCategories)[0];
     const newCategory = {
-      id: 'new', // Assuming the ID is generated like this. Adjust as needed.
+      id: 'new' + newCategoryIdCounter, // Assuming the ID is generated like this. Adjust as needed.
       name: newCategoryName,
       parentId: selectedId,
       kiekis: 0,
@@ -274,6 +295,8 @@ const App = () => {
     const updatedCategories = [...categories, newCategory];
 
     setCategories(updatedCategories);
+    setNewCategoryIdCounter(newCategoryIdCounter + 1);
+
     axios.post('/save_categories', updatedCategories)
       .then(response => {
         console.log('Category created successfully:', response.data);
