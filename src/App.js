@@ -87,6 +87,11 @@ const App = () => {
 
     setCategories(updatedCategories);
 
+    axios.post('/log_action', { action: 'moveCategory', details: `Vartotojas perkėlė kategoriją 'id: ${id}' - nauja tėvinė kategorija dabar yra 'id: ${newParentId}'` })
+              .catch(error => {
+               console.error('Error logging action:', error);
+        });
+
     axios.post('/save_categories', updatedCategories)
       .then(response => {
         console.log('Categories saved successfully:', response.data);
@@ -159,6 +164,7 @@ const App = () => {
   const handleClearChanges = () => {
     axios.post('/clear_categories')
       .then(response => {
+        axios.post('/log_action', { action: 'clearCategories', details: `Atstatytas pradinis medis` });
         console.log('Categories cleared successfully');
         fetchCategories();
       })
@@ -175,6 +181,7 @@ const App = () => {
     document.body.appendChild(downloadAnchorNode);
     downloadAnchorNode.click();
     downloadAnchorNode.remove();
+    axios.post('/log_action', { action: 'treeExported', details: `Medis iseksportuotas` });
   };
 
   const handleImportTree = (event) => {
@@ -185,6 +192,7 @@ const App = () => {
       axios.post('/save_categories', importedCategories)
         .then(response => {
           console.log('Categories imported and saved successfully:', response.data);
+          axios.post('/log_action', { action: 'treeImported', details: `Importuotas medis` });
         })
         .catch(error => {
           console.error('Error importing and saving categories:', error);
@@ -232,6 +240,7 @@ const App = () => {
     axios.post('/save_categories', updatedCategories)
       .then(response => {
         console.log('Categories marked for deletion successfully:', response.data);
+        axios.post('/log_action', { action: 'markForDeletion', details: Array.from(selectedCategories) })
         clearSelectedCategories();
       })
       .catch(error => {
@@ -247,6 +256,10 @@ const App = () => {
       return category;
     });
     setCategories(updatedCategories);
+    axios.post('/log_action', { action: 'markForMerge', details: Array.from(selectedCategories) })
+              .catch(error => {
+               console.error('Error logging action:', error);
+        });
     axios.post('/save_categories', updatedCategories)
       .then(response => {
         console.log('Categories marked for merge successfully:', response.data);
@@ -281,6 +294,7 @@ const App = () => {
     axios.post('/save_categories', updatedCategories)
       .then(response => {
         console.log('Category renamed successfully:', response.data);
+        axios.post('/log_action', { action: 'renameCategory', details: `Kategorija 'id: ${selectedId}' pervadinta iš '${originalCategory.name}' į '${newCategoryName}'` });
         setRenameInputVisible(false);
         setNewCategoryName('');
         clearSelectedCategories();
@@ -314,6 +328,7 @@ const App = () => {
     axios.post('/save_categories', updatedCategories)
       .then(response => {
         console.log('Category created successfully:', response.data);
+        axios.post('/log_action', { action: 'createCategory', details: `Sukurta nauja kategorija 'id: ${newCategory.id}' su pavadinimu '${newCategoryName}' prie tevines kategorijos 'id: ${selectedId}'` });
         setNewCategoryInputVisible(false);
         setNewCategoryName('');
         clearSelectedCategories();
@@ -337,6 +352,7 @@ const App = () => {
     });
   
     setCategories(updatedCategories);
+    axios.post('/log_action', { action: 'addComment', details: `Pridėtas komentaras kategorijai 'id: ${Array.from(selectedCategories).join(', ')}': "${tooltipText}"` });
   
     setTooltipInputVisible(false);
     setTooltipText('');
