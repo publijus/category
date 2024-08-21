@@ -28,15 +28,26 @@ app.use(cors({
 
 app.use(express.json({ limit: '50mb' }));
 
-// Serve static files from the React app
-app.use(express.static(path.join(__dirname, 'build')));
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'build', 'index.html'));
+app.get('/download_log', (req, res) => {
+  const logFilePath = path.join(__dirname, 'public', 'actions.log');
+  res.download(logFilePath, 'actions.log', (err) => {
+    if (err) {
+      console.error('Error downloading the log file:', err);
+      res.status(500).send('Could not download the log file');
+    }
+  });
 });
 
-const buildDir = path.join(__dirname, 'build');
-const defaultPath = path.join(buildDir, 'categories.json');
-const updatedPath = path.join(buildDir, 'categories_updated.json');
+app.get('/view_log', (req, res) => {
+  const logFilePath = path.join(__dirname, 'public', 'actions.log');
+  fs.readFile(logFilePath, 'utf8', (err, data) => {
+    if (err) {
+      console.error('Error reading the log file:', err);
+      return res.status(500).send('Could not read the log file');
+    }
+    res.type('text/plain').send(data);
+  });
+});
 
 app.post('/log_action', (req, res) => {
   try {
@@ -52,6 +63,18 @@ app.post('/log_action', (req, res) => {
     res.status(500).send({ message: 'Internal Server Error', error: error.message });
   }
 });
+
+// Serve static files from the React app
+app.use(express.static(path.join(__dirname, 'build')));
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'build', 'index.html'));
+});
+
+const buildDir = path.join(__dirname, 'build');
+const defaultPath = path.join(buildDir, 'categories.json');
+const updatedPath = path.join(buildDir, 'categories_updated.json');
+
+
 
 app.get('/categories.json', (req, res) => {
   const updatedPath = path.join(__dirname, 'build', 'categories_updated.json');

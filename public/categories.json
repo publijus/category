@@ -11,7 +11,7 @@
         "id": 2,
         "path": "000001990025",
         "name": "Variklis / dalys",
-        "kiekis": 13,
+        "kiekis": 12,
         "ikelimas": "2024-07-30",
         "parentId": 1
     },
@@ -51,8 +51,8 @@
         "id": 7,
         "path": "000001990025112932",
         "name": "Visas variklis",
-        "kiekis": 197,
-        "ikelimas": "2024-08-08",
+        "kiekis": 192,
+        "ikelimas": "2024-08-13",
         "parentId": 2
     },
     {
@@ -91,7 +91,7 @@
         "id": 12,
         "path": "00000199002503197A",
         "name": "Variklio dangtis",
-        "kiekis": 227,
+        "kiekis": 219,
         "ikelimas": "2024-08-06",
         "parentId": 2
     },
@@ -163,7 +163,7 @@
         "id": 21,
         "path": "000001013484000004",
         "name": "Išmetimo kolektorius",
-        "kiekis": 28,
+        "kiekis": 27,
         "ikelimas": "2024-07-24",
         "parentId": 4
     },
@@ -179,7 +179,7 @@
         "id": 23,
         "path": "000001013484000006",
         "name": "Išmetamųjų dujų recirkuliacija",
-        "kiekis": 6,
+        "kiekis": 5,
         "ikelimas": "2024-06-18",
         "parentId": 4
     },
@@ -187,8 +187,8 @@
         "id": 24,
         "path": "000001013484000001",
         "name": "Katalizatoriaus keitiklis",
-        "kiekis": 138,
-        "ikelimas": "2024-08-06",
+        "kiekis": 131,
+        "ikelimas": "2024-08-19",
         "parentId": 4
     },
     {
@@ -211,8 +211,8 @@
         "id": 27,
         "path": "000001013484000005",
         "name": "Duslintuvas/dalys",
-        "kiekis": 12,
-        "ikelimas": "2024-04-08",
+        "kiekis": 14,
+        "ikelimas": "2024-08-21",
         "parentId": 4
     },
     {
@@ -227,7 +227,7 @@
         "id": 29,
         "path": "00000106524A014081",
         "name": "Radiatoriaus ventiliatorius",
-        "kiekis": 131,
+        "kiekis": 130,
         "ikelimas": "2024-07-12",
         "parentId": 5
     },
@@ -235,8 +235,8 @@
         "id": 30,
         "path": "00000106524A047558",
         "name": "Radiatorius/dalys",
-        "kiekis": 46,
-        "ikelimas": "2024-07-10",
+        "kiekis": 48,
+        "ikelimas": "2024-08-09",
         "parentId": 5
     },
     {
@@ -259,15 +259,15 @@
         "id": 33,
         "path": "00000106524A015825",
         "name": "Vandens siurblys",
-        "kiekis": 57,
-        "ikelimas": "2024-07-03",
+        "kiekis": 58,
+        "ikelimas": "2024-08-13",
         "parentId": 5
     },
     {
         "id": 34,
         "path": "00000106524A04868A",
         "name": "Žarnelės / vamzdeliai / sujungimai",
-        "kiekis": 68,
+        "kiekis": 67,
         "ikelimas": "2024-08-05",
         "parentId": 5
     },
@@ -275,7 +275,7 @@
         "id": 36,
         "path": "00000106524A048688",
         "name": "Alyvos aušintuvas",
-        "kiekis": 47,
+        "kiekis": 46,
         "ikelimas": "2024-06-20",
         "parentId": 5
     },
@@ -307,7 +307,7 @@
         "id": 40,
         "path": "000001990025031979990000",
         "name": "Karteris",
-        "kiekis": 151,
+        "kiekis": 149,
         "ikelimas": "2024-07-30",
         "parentId": 8
     },
@@ -420,15 +420,15 @@
         "path": "000001990025112931064028",
         "name": "Alyvos aušintuvas",
         "kiekis": 95,
-        "ikelimas": "2024-07-30",
+        "ikelimas": "2024-08-20",
         "parentId": 9
     },
     {
         "id": 55,
         "path": "000001990025112931030744",
         "name": "Alyvos filtro korpusas",
-        "kiekis": 173,
-        "ikelimas": "2024-07-31",
+        "kiekis": 174,
+        "ikelimas": "2024-08-08",
         "parentId": 9
     },
     {
@@ -483,7 +483,7 @@
         "id": 62,
         "path": "000001990025990017030734",
         "name": "Alkūninis velenas",
-        "kiekis": 115,
+        "kiekis": 113,
         "ikelimas": "2024-05-03",
         "parentId": 10
     },
@@ -539,7 +539,7 @@
         "id": 69,
         "path": "000001990025990017047059",
         "name": "Švaistiklis",
-        "kiekis": 41,
+        "kiekis": 40,
         "ikelimas": "2024-06-20",
         "parentId": 10
     },
@@ -603,16 +603,16 @@
         "id": 77,
         "path": "000001990025990017990005",
         "name": "Balansinis velenas",
-        "kiekis": 20,
-        "ikelimas": "2024-02-02",
+        "kiekis": 21,
+        "ikelimas": "2024-08-12",
         "parentId": 10
     },
     {
         "id": 78,
         "path": "000001990025990017030735",
         "name": "Alyvos lygio matuoklis",
-        "kiekis": 100,
-        "ikelimas": "2024-04-23",
+        "kiekis": 101,
+        "ikelimas": "2024-08-08",
         "parentId": 10
     },
     {
@@ -635,7 +635,7 @@
         "id": 81,
         "path": "000001990025131751131802",
         "name": "Cilindrų galvutė",
-        "kiekis": 115,
+        "kiekis": 112,
         "ikelimas": "2024-07-16",
         "parentId": 11
     },
@@ -683,7 +683,7 @@
         "id": 87,
         "path": "000001990025131751990009",
         "name": "Paskirstymo veleno žvaigždutė",
-        "kiekis": 33,
+        "kiekis": 32,
         "ikelimas": "2024-07-30",
         "parentId": 11
     },
@@ -772,7 +772,7 @@
         "path": "000001990025131751030786",
         "name": "Vakuumo siurblys",
         "kiekis": 263,
-        "ikelimas": "2024-08-01",
+        "ikelimas": "2024-08-20",
         "parentId": 11
     },
     {
@@ -803,15 +803,15 @@
         "id": 102,
         "path": "000001990025097016113975",
         "name": "Variklio tvirtinimas",
-        "kiekis": 963,
-        "ikelimas": "2024-08-07",
+        "kiekis": 962,
+        "ikelimas": "2024-08-21",
         "parentId": 13
     },
     {
         "id": 103,
         "path": "000001990025097016015084",
         "name": "Kronšteinas",
-        "kiekis": 831,
+        "kiekis": 829,
         "ikelimas": "2024-07-30",
         "parentId": 13
     },
@@ -915,7 +915,7 @@
         "id": 116,
         "path": "000001990025081891015752",
         "name": "Paskirstymo diržas",
-        "kiekis": 3,
+        "kiekis": 1,
         "ikelimas": "2023-04-27",
         "parentId": 15
     },
@@ -923,7 +923,7 @@
         "id": 117,
         "path": "000001990025081891014644",
         "name": "Paskirstymo diržo įtempiklis",
-        "kiekis": 44,
+        "kiekis": 43,
         "ikelimas": "2024-08-05",
         "parentId": 15
     },
@@ -939,8 +939,8 @@
         "id": 119,
         "path": "000001990025081891080701",
         "name": "Alkūninio veleno paskirstymo diržo skriemulys",
-        "kiekis": 63,
-        "ikelimas": "2024-07-18",
+        "kiekis": 64,
+        "ikelimas": "2024-08-09",
         "parentId": 15
     },
     {
@@ -955,7 +955,7 @@
         "id": 121,
         "path": "000001990025081891098564",
         "name": "Paskirstymo diržo dangtelis",
-        "kiekis": 145,
+        "kiekis": 142,
         "ikelimas": "2024-07-29",
         "parentId": 15
     },
@@ -971,7 +971,7 @@
         "id": 123,
         "path": "000001990025081891032142",
         "name": "Paskirstymo krumpliaračiai (paskirstymo grandinė)",
-        "kiekis": 43,
+        "kiekis": 42,
         "ikelimas": "2024-06-20",
         "parentId": 15
     },
@@ -1011,15 +1011,15 @@
         "id": 128,
         "path": "000001990025081891990321",
         "name": "Vandens siurblys",
-        "kiekis": 122,
-        "ikelimas": "2024-07-31",
+        "kiekis": 123,
+        "ikelimas": "2024-08-13",
         "parentId": 15
     },
     {
         "id": 129,
         "path": "000001990025081792131733",
         "name": "Dirželio įtempiklis (įtempimo blokas)",
-        "kiekis": 134,
+        "kiekis": 133,
         "ikelimas": "2024-04-23",
         "parentId": 16
     },
@@ -1052,7 +1052,7 @@
         "path": "000001990025015837098711",
         "name": "Laidai",
         "kiekis": 106,
-        "ikelimas": "2024-06-26",
+        "ikelimas": "2024-08-14",
         "parentId": 17
     },
     {
@@ -1060,15 +1060,15 @@
         "path": "000001990025015837098710",
         "name": "Jutikliai",
         "kiekis": 8,
-        "ikelimas": "2024-06-05",
+        "ikelimas": "2024-08-13",
         "parentId": 17
     },
     {
         "id": 135,
         "path": "00000101570A000002000004",
         "name": "Įsiurbimo kolektorius",
-        "kiekis": 382,
-        "ikelimas": "2024-08-01",
+        "kiekis": 378,
+        "ikelimas": "2024-08-14",
         "parentId": 18
     },
     {
@@ -1091,7 +1091,7 @@
         "id": 138,
         "path": "00000101570A000002000002",
         "name": "Droselinė sklendė",
-        "kiekis": 637,
+        "kiekis": 634,
         "ikelimas": "2024-08-05",
         "parentId": 18
     },
@@ -1115,7 +1115,7 @@
         "id": 141,
         "path": "00000101570A000002015996",
         "name": "Solenoidinis vožtuvas",
-        "kiekis": 50,
+        "kiekis": 49,
         "ikelimas": "2024-07-10",
         "parentId": 18
     },
@@ -1131,23 +1131,23 @@
         "id": 143,
         "path": "00000101570A081904130195",
         "name": "Oro paėmimas/ įsiurbimo ortakis",
-        "kiekis": 1463,
-        "ikelimas": "2024-08-07",
+        "kiekis": 1465,
+        "ikelimas": "2024-08-21",
         "parentId": 19
     },
     {
         "id": 144,
         "path": "00000101570A08190401571C",
         "name": "Oro filtro korpusas",
-        "kiekis": 300,
-        "ikelimas": "2024-08-06",
+        "kiekis": 299,
+        "ikelimas": "2024-08-20",
         "parentId": 19
     },
     {
         "id": 145,
         "path": "00000101570A081904000001",
         "name": "Oro filtras",
-        "kiekis": 13,
+        "kiekis": 11,
         "ikelimas": "2024-07-23",
         "parentId": 19
     },
@@ -1163,7 +1163,7 @@
         "id": 147,
         "path": "00000101570A08190401571B",
         "name": "Oro srauto jutiklis",
-        "kiekis": 299,
+        "kiekis": 296,
         "ikelimas": "2024-07-02",
         "parentId": 19
     },
@@ -1179,8 +1179,8 @@
         "id": 149,
         "path": "00000101570A081904130194",
         "name": "Rezonatorius",
-        "kiekis": 20,
-        "ikelimas": "2024-05-13",
+        "kiekis": 21,
+        "ikelimas": "2024-08-14",
         "parentId": 19
     },
     {
@@ -1195,7 +1195,7 @@
         "id": 151,
         "path": "00000101570A000001000001",
         "name": "Solenoidinis vožtuvas",
-        "kiekis": 32,
+        "kiekis": 31,
         "ikelimas": "2024-07-10",
         "parentId": 20
     },
@@ -1211,16 +1211,16 @@
         "id": 153,
         "path": "000001013484000004000004",
         "name": "Išmetimo kolektorius",
-        "kiekis": 224,
-        "ikelimas": "2024-08-06",
+        "kiekis": 222,
+        "ikelimas": "2024-08-20",
         "parentId": 21
     },
     {
         "id": 154,
         "path": "000001013484000004000001",
         "name": "Apsauga nuo karščio",
-        "kiekis": 170,
-        "ikelimas": "2024-08-06",
+        "kiekis": 168,
+        "ikelimas": "2024-08-20",
         "parentId": 21
     },
     {
@@ -1236,7 +1236,7 @@
         "path": "000001013484000009000001",
         "name": "Turbokompresorius",
         "kiekis": 216,
-        "ikelimas": "2024-08-06",
+        "ikelimas": "2024-08-14",
         "parentId": 22
     },
     {
@@ -1251,7 +1251,7 @@
         "id": 158,
         "path": "000001013484000009000002",
         "name": "Solenoidinis vožtuvas",
-        "kiekis": 35,
+        "kiekis": 34,
         "ikelimas": "2024-07-12",
         "parentId": 22
     },
@@ -1259,7 +1259,7 @@
         "id": 159,
         "path": "000001013484000009000003",
         "name": "Alyvos žarna",
-        "kiekis": 114,
+        "kiekis": 113,
         "ikelimas": "2023-11-28",
         "parentId": 22
     },
@@ -1275,8 +1275,8 @@
         "id": 161,
         "path": "000001013484000006000003",
         "name": "EGR vožtuvas",
-        "kiekis": 184,
-        "ikelimas": "2024-08-05",
+        "kiekis": 174,
+        "ikelimas": "2024-08-11",
         "parentId": 23
     },
     {
@@ -1291,23 +1291,23 @@
         "id": 163,
         "path": "000001013484000006000001",
         "name": "Solenoidinis vožtuvas",
-        "kiekis": 120,
-        "ikelimas": "2024-08-06",
+        "kiekis": 117,
+        "ikelimas": "2024-08-13",
         "parentId": 23
     },
     {
         "id": 164,
         "path": "000001013484000006000005",
         "name": "Aušintuvas, išmetamųjų dujų recirkuliacija",
-        "kiekis": 166,
-        "ikelimas": "2024-08-07",
+        "kiekis": 165,
+        "ikelimas": "2024-08-20",
         "parentId": 23
     },
     {
         "id": 165,
         "path": "000001013484000006000002",
         "name": "Jungties vamzdis, vakuuminė žarna",
-        "kiekis": 151,
+        "kiekis": 150,
         "ikelimas": "2024-07-28",
         "parentId": 23
     },
@@ -1315,16 +1315,16 @@
         "id": 166,
         "path": "000001013484000002000002",
         "name": "Lambda zondas",
-        "kiekis": 629,
-        "ikelimas": "2024-08-06",
+        "kiekis": 630,
+        "ikelimas": "2024-08-20",
         "parentId": 26
     },
     {
         "id": 167,
         "path": "000001013484000002000001",
         "name": "Jutiklis, išmetimo slėgis",
-        "kiekis": 34,
-        "ikelimas": "2024-07-24",
+        "kiekis": 35,
+        "ikelimas": "2024-08-11",
         "parentId": 26
     },
     {
@@ -1339,7 +1339,7 @@
         "id": 169,
         "path": "00000101348400000500000A",
         "name": "Duslintuvas",
-        "kiekis": 129,
+        "kiekis": 127,
         "ikelimas": "2024-08-08",
         "parentId": 27
     },
@@ -1403,8 +1403,8 @@
         "id": 177,
         "path": "000001013484000005000005",
         "name": "Kronšteinas",
-        "kiekis": 1398,
-        "ikelimas": "2024-08-07",
+        "kiekis": 1391,
+        "ikelimas": "2024-08-20",
         "parentId": 27
     },
     {
@@ -1420,7 +1420,7 @@
         "path": "00000106524A047558030728",
         "name": "Radiatorius ( Aušinimo sistema)",
         "kiekis": 306,
-        "ikelimas": "2024-08-07",
+        "ikelimas": "2024-08-09",
         "parentId": 30
     },
     {
@@ -1435,8 +1435,8 @@
         "id": 181,
         "path": "00000106524A047558014537",
         "name": "Aušinimo skysčio išsiplėtimo bakelis",
-        "kiekis": 250,
-        "ikelimas": "2024-07-31",
+        "kiekis": 247,
+        "ikelimas": "2024-08-21",
         "parentId": 30
     },
     {
@@ -1475,7 +1475,7 @@
         "id": 186,
         "path": "00000106524A032011064067",
         "name": "Termostatas",
-        "kiekis": 22,
+        "kiekis": 21,
         "ikelimas": "2024-07-30",
         "parentId": 32
     },
@@ -1483,7 +1483,7 @@
         "id": 187,
         "path": "00000106524A032011000001",
         "name": "Termostato korpusas",
-        "kiekis": 222,
+        "kiekis": 221,
         "ikelimas": "2024-08-05",
         "parentId": 32
     },
@@ -1492,14 +1492,14 @@
         "path": "00000106524A015825080424",
         "name": "Vandens siurblys",
         "kiekis": 203,
-        "ikelimas": "2024-07-31",
+        "ikelimas": "2024-08-14",
         "parentId": 33
     },
     {
         "id": 189,
         "path": "00000106524A015825000001",
         "name": "Dirželio skriemulys",
-        "kiekis": 37,
+        "kiekis": 36,
         "ikelimas": "2024-07-29",
         "parentId": 33
     },
@@ -1507,15 +1507,15 @@
         "id": 191,
         "path": "00000106524A04868A014592",
         "name": "Radiatoriaus žarna",
-        "kiekis": 938,
-        "ikelimas": "2024-07-29",
+        "kiekis": 942,
+        "ikelimas": "2024-08-20",
         "parentId": 34
     },
     {
         "id": 192,
         "path": "00000106524A04868A013997",
         "name": "Aušinimo skysčio jungė",
-        "kiekis": 117,
+        "kiekis": 116,
         "ikelimas": "2024-05-28",
         "parentId": 34
     },
@@ -1523,15 +1523,15 @@
         "id": 193,
         "path": "00000106524A04868A000001",
         "name": "Vamzdis, aušinimo skystis",
-        "kiekis": 883,
-        "ikelimas": "2024-08-07",
+        "kiekis": 871,
+        "ikelimas": "2024-08-19",
         "parentId": 34
     },
     {
         "id": 194,
         "path": "00000106524A048688030493",
         "name": "Alyvos aušintuvas, variklio alyva",
-        "kiekis": 43,
+        "kiekis": 42,
         "ikelimas": "2024-07-30",
         "parentId": 36
     },
@@ -1571,8 +1571,8 @@
         "id": 199,
         "path": "00000101570901380603259A",
         "name": "Akseleratoriaus pedalas",
-        "kiekis": 543,
-        "ikelimas": "2024-08-01",
+        "kiekis": 542,
+        "ikelimas": "2024-08-15",
         "parentId": 37
     },
     {
@@ -1603,7 +1603,7 @@
         "id": 203,
         "path": "000001015709013805131702",
         "name": "Kuro filtras/korpusas",
-        "kiekis": 31,
+        "kiekis": 30,
         "ikelimas": "2024-07-31",
         "parentId": 38
     },
@@ -1619,8 +1619,8 @@
         "id": 205,
         "path": "000001015709013805015719",
         "name": "Kuro radiatorius",
-        "kiekis": 2,
-        "ikelimas": "2022-03-24",
+        "kiekis": 3,
+        "ikelimas": "2024-08-11",
         "parentId": 38
     },
     {
@@ -1643,8 +1643,8 @@
         "id": 208,
         "path": "000001015709013805063907",
         "name": "Kuro paskirstymas/magistralė",
-        "kiekis": 106,
-        "ikelimas": "2024-07-31",
+        "kiekis": 105,
+        "ikelimas": "2024-08-14",
         "parentId": 38
     },
     {
@@ -1723,8 +1723,8 @@
         "id": 218,
         "path": "000001015709013805096895063494",
         "name": "Siuntimo blokas, degalų bakas",
-        "kiekis": 125,
-        "ikelimas": "2024-07-31",
+        "kiekis": 124,
+        "ikelimas": "2024-08-14",
         "parentId": 202
     },
     {
@@ -1747,7 +1747,7 @@
         "id": 221,
         "path": "000001015709013805096895096937",
         "name": "Užpildymo vamzdis, degalų bakas",
-        "kiekis": 13,
+        "kiekis": 12,
         "ikelimas": "2024-07-19",
         "parentId": 202
     },
@@ -1756,15 +1756,15 @@
         "path": "000001015709013805096895081817",
         "name": "Alsuoklio žarna, degalų bakas",
         "kiekis": 21,
-        "ikelimas": "2024-07-24",
+        "ikelimas": "2024-08-13",
         "parentId": 202
     },
     {
         "id": 223,
         "path": "000001015709013805030416080092",
         "name": "Kuro siurblys",
-        "kiekis": 424,
-        "ikelimas": "2024-08-01",
+        "kiekis": 421,
+        "ikelimas": "2024-08-14",
         "parentId": 206
     },
     {
@@ -1795,7 +1795,7 @@
         "id": 227,
         "path": "000001015709013805063907130101",
         "name": "Kuro paskirstymas",
-        "kiekis": 337,
+        "kiekis": 335,
         "ikelimas": "2024-07-31",
         "parentId": 208
     },
@@ -1803,7 +1803,7 @@
         "id": 228,
         "path": "000001015709013805063907015728",
         "name": "Degalų paskirstymo vamzdelis",
-        "kiekis": 68,
+        "kiekis": 66,
         "ikelimas": "2024-08-06",
         "parentId": 208
     },
@@ -1844,7 +1844,7 @@
         "path": "000001013483",
         "name": "Stabdžių sistema",
         "kiekis": 34,
-        "ikelimas": "2024-08-07",
+        "ikelimas": "2024-08-12",
         "parentId": 1
     },
     {
@@ -1939,16 +1939,16 @@
         "id": 245,
         "path": "00000106524904756A",
         "name": "Vairas",
-        "kiekis": 406,
-        "ikelimas": "2024-08-05",
+        "kiekis": 400,
+        "ikelimas": "2024-08-21",
         "parentId": 232
     },
     {
         "id": 246,
         "path": "000001065249080458",
         "name": "Vairo kolonėlė (vairolazdė) / dalys",
-        "kiekis": 45,
-        "ikelimas": "2024-08-06",
+        "kiekis": 42,
+        "ikelimas": "2024-08-09",
         "parentId": 232
     },
     {
@@ -1963,7 +1963,7 @@
         "id": 248,
         "path": "000001065249000001",
         "name": "Vairo stiprintuvas",
-        "kiekis": 19,
+        "kiekis": 18,
         "ikelimas": "2024-05-24",
         "parentId": 232
     },
@@ -1979,16 +1979,16 @@
         "id": 250,
         "path": "00000101348300000B",
         "name": "Valdymo blokas ABS hidraulika",
-        "kiekis": 500,
-        "ikelimas": "2024-07-29",
+        "kiekis": 493,
+        "ikelimas": "2024-08-21",
         "parentId": 233
     },
     {
         "id": 251,
         "path": "000001013483000009",
         "name": "Jutikliai",
-        "kiekis": 74,
-        "ikelimas": "2024-07-24",
+        "kiekis": 73,
+        "ikelimas": "2024-08-13",
         "parentId": 233
     },
     {
@@ -1996,7 +1996,7 @@
         "path": "000001013483000004",
         "name": "Vakuumo siurblys",
         "kiekis": 293,
-        "ikelimas": "2024-07-26",
+        "ikelimas": "2024-08-20",
         "parentId": 233
     },
     {
@@ -2019,8 +2019,8 @@
         "id": 255,
         "path": "000001013483000001",
         "name": "Stabdžių pedalas",
-        "kiekis": 60,
-        "ikelimas": "2024-07-19",
+        "kiekis": 61,
+        "ikelimas": "2024-08-09",
         "parentId": 233
     },
     {
@@ -2060,7 +2060,7 @@
         "path": "000001081888032018",
         "name": "Rankenėlės",
         "kiekis": 26,
-        "ikelimas": "2024-07-13",
+        "ikelimas": "2024-08-08",
         "parentId": 234
     },
     {
@@ -2091,7 +2091,7 @@
         "id": 264,
         "path": "000001081888098687",
         "name": "Imobilaizeris",
-        "kiekis": 82,
+        "kiekis": 79,
         "ikelimas": "2024-08-05",
         "parentId": 234
     },
@@ -2123,7 +2123,7 @@
         "id": 268,
         "path": "000001047259000001",
         "name": "Oro kondicionavimas",
-        "kiekis": 5,
+        "kiekis": 4,
         "ikelimas": "2024-05-10",
         "parentId": 235
     },
@@ -2195,16 +2195,16 @@
         "id": 277,
         "path": "00000101570A015785000001",
         "name": "Tarpinis suslėgto oro aušintuvas",
-        "kiekis": 104,
-        "ikelimas": "2024-07-30",
+        "kiekis": 106,
+        "ikelimas": "2024-08-14",
         "parentId": 237
     },
     {
         "id": 278,
         "path": "00000101570A01578501586A",
         "name": "Oro tiekimo žarnelės / vamzdeliai",
-        "kiekis": 101,
-        "ikelimas": "2024-07-24",
+        "kiekis": 100,
+        "ikelimas": "2024-08-12",
         "parentId": 237
     },
     {
@@ -2219,8 +2219,8 @@
         "id": 280,
         "path": "000001015708000002000003",
         "name": "Automatinė pavarų dėžė",
-        "kiekis": 215,
-        "ikelimas": "2024-08-07",
+        "kiekis": 208,
+        "ikelimas": "2024-08-20",
         "parentId": 238
     },
     {
@@ -2228,7 +2228,7 @@
         "path": "000001015708000002000006",
         "name": "Valdymo blokas automatinės pavarų dėžės",
         "kiekis": 212,
-        "ikelimas": "2024-07-24",
+        "ikelimas": "2024-08-13",
         "parentId": 238
     },
     {
@@ -2259,15 +2259,15 @@
         "id": 285,
         "path": "000001015708000002000004",
         "name": "Montavimas, automatinė transmisija",
-        "kiekis": 18,
-        "ikelimas": "2024-07-18",
+        "kiekis": 19,
+        "ikelimas": "2024-08-13",
         "parentId": 238
     },
     {
         "id": 286,
         "path": "000001015708131715096878",
         "name": "Mechaninė pavarų dėžė",
-        "kiekis": 86,
+        "kiekis": 84,
         "ikelimas": "2024-07-16",
         "parentId": 239
     },
@@ -2283,7 +2283,7 @@
         "id": 288,
         "path": "000001015708131715130221",
         "name": "Bėgių perjungimo mazgas",
-        "kiekis": 61,
+        "kiekis": 59,
         "ikelimas": "2024-07-23",
         "parentId": 239
     },
@@ -2347,8 +2347,8 @@
         "id": 296,
         "path": "00000101570800000300000C",
         "name": "Smagratis",
-        "kiekis": 25,
-        "ikelimas": "2024-08-07",
+        "kiekis": 26,
+        "ikelimas": "2024-08-08",
         "parentId": 241
     },
     {
@@ -2404,7 +2404,7 @@
         "path": "00000101570800000300000E",
         "name": "Sankabos pedalas",
         "kiekis": 38,
-        "ikelimas": "2024-05-19",
+        "ikelimas": "2024-08-13",
         "parentId": 241
     },
     {
@@ -2419,8 +2419,8 @@
         "id": 305,
         "path": "000001015708000003000006",
         "name": "Žarnelės/vamzdeliai",
-        "kiekis": 403,
-        "ikelimas": "2024-08-06",
+        "kiekis": 402,
+        "ikelimas": "2024-08-20",
         "parentId": 241
     },
     {
@@ -2443,7 +2443,7 @@
         "id": 308,
         "path": "000001015708000001000008",
         "name": "Pavarų svirties apvalkalas",
-        "kiekis": 109,
+        "kiekis": 108,
         "ikelimas": "2024-08-05",
         "parentId": 242
     },
@@ -2451,7 +2451,7 @@
         "id": 309,
         "path": "000001015708000001000007",
         "name": "Pavarų svirties galvelė",
-        "kiekis": 107,
+        "kiekis": 106,
         "ikelimas": "2024-08-05",
         "parentId": 242
     },
@@ -2459,8 +2459,8 @@
         "id": 310,
         "path": "000001015708000001000005",
         "name": "Pavarų svirtis",
-        "kiekis": 355,
-        "ikelimas": "2024-08-06",
+        "kiekis": 350,
+        "ikelimas": "2024-08-14",
         "parentId": 242
     },
     {
@@ -2507,16 +2507,16 @@
         "id": 316,
         "path": "000001015708131716115199",
         "name": "Priekinės ašies reduktorius",
-        "kiekis": 81,
-        "ikelimas": "2024-07-18",
+        "kiekis": 82,
+        "ikelimas": "2024-08-13",
         "parentId": 243
     },
     {
         "id": 317,
         "path": "000001015708131716115198",
         "name": "Galinės ašies reduktorius",
-        "kiekis": 271,
-        "ikelimas": "2024-07-25",
+        "kiekis": 273,
+        "ikelimas": "2024-08-13",
         "parentId": 243
     },
     {
@@ -2531,8 +2531,8 @@
         "id": 319,
         "path": "000001015708131716990032",
         "name": "Valdymo varikliukas skirstomosios dėžės",
-        "kiekis": 1,
-        "ikelimas": "2023-09-07",
+        "kiekis": 2,
+        "ikelimas": "2024-08-19",
         "parentId": 243
     },
     {
@@ -2563,7 +2563,7 @@
         "id": 323,
         "path": "000001015708131716990037",
         "name": "Valdymo blokas diferencialo blokavimas",
-        "kiekis": 6,
+        "kiekis": 5,
         "ikelimas": "2024-06-10",
         "parentId": 243
     },
@@ -2571,8 +2571,8 @@
         "id": 324,
         "path": "000001015708000004013955",
         "name": "Kardaninis velenas",
-        "kiekis": 263,
-        "ikelimas": "2024-08-07",
+        "kiekis": 262,
+        "ikelimas": "2024-08-12",
         "parentId": 244
     },
     {
@@ -2595,8 +2595,8 @@
         "id": 327,
         "path": "000001015708000004032037",
         "name": "Pusašis",
-        "kiekis": 849,
-        "ikelimas": "2024-08-07",
+        "kiekis": 852,
+        "ikelimas": "2024-08-20",
         "parentId": 244
     },
     {
@@ -2635,15 +2635,15 @@
         "id": 332,
         "path": "000001065249080458990041",
         "name": "Vairo kolonėlė (vairolazdė)",
-        "kiekis": 125,
-        "ikelimas": "2024-08-07",
+        "kiekis": 118,
+        "ikelimas": "2024-08-21",
         "parentId": 246
     },
     {
         "id": 333,
         "path": "000001065249080458047046",
         "name": "Tarpinis vairo velenas",
-        "kiekis": 21,
+        "kiekis": 20,
         "ikelimas": "2024-06-27",
         "parentId": 246
     },
@@ -2652,15 +2652,15 @@
         "path": "000001065249080458000001",
         "name": "Vairo užraktas",
         "kiekis": 57,
-        "ikelimas": "2024-08-08",
+        "ikelimas": "2024-07-26",
         "parentId": 246
     },
     {
         "id": 335,
         "path": "00000106524908045A131692",
         "name": "Vairo pavara(kolonėlė)",
-        "kiekis": 164,
-        "ikelimas": "2024-08-08",
+        "kiekis": 168,
+        "ikelimas": "2024-08-21",
         "parentId": 247
     },
     {
@@ -2691,7 +2691,7 @@
         "id": 339,
         "path": "000001065249000001015896",
         "name": "Vairo stiprintuvo siurblys",
-        "kiekis": 124,
+        "kiekis": 123,
         "ikelimas": "2024-08-06",
         "parentId": 248
     },
@@ -2723,23 +2723,23 @@
         "id": 343,
         "path": "000001065249000001000001",
         "name": "Išsiplėtimo bakelis, vairo stiprintuvas",
-        "kiekis": 73,
-        "ikelimas": "2024-06-03",
+        "kiekis": 74,
+        "ikelimas": "2024-08-08",
         "parentId": 248
     },
     {
         "id": 344,
         "path": "000001065249000001014619",
         "name": "Žarnelės/vamzdeliai",
-        "kiekis": 255,
-        "ikelimas": "2024-08-06",
+        "kiekis": 257,
+        "ikelimas": "2024-08-13",
         "parentId": 248
     },
     {
         "id": 345,
         "path": "00000101348300000A000006",
         "name": "Pagrindinis stabdžių cilindras",
-        "kiekis": 212,
+        "kiekis": 203,
         "ikelimas": "2024-08-06",
         "parentId": 249
     },
@@ -2747,7 +2747,7 @@
         "id": 346,
         "path": "00000101348300000A000005",
         "name": "Stabdžių stiprintuvas",
-        "kiekis": 16,
+        "kiekis": 13,
         "ikelimas": "2024-04-02",
         "parentId": 249
     },
@@ -2755,7 +2755,7 @@
         "id": 347,
         "path": "00000101348300000A000002",
         "name": "Išsiplėtimo bakelis, stabdžių skystis",
-        "kiekis": 38,
+        "kiekis": 35,
         "ikelimas": "2024-05-13",
         "parentId": 249
     },
@@ -2779,8 +2779,8 @@
         "id": 350,
         "path": "00000101348300000A000003",
         "name": "Vairavimo kampo jutiklis",
-        "kiekis": 54,
-        "ikelimas": "2024-08-05",
+        "kiekis": 60,
+        "ikelimas": "2024-08-14",
         "parentId": 249
     },
     {
@@ -2788,7 +2788,7 @@
         "path": "000001013483000009000004",
         "name": "Jutiklis, rato greitis",
         "kiekis": 17,
-        "ikelimas": "2024-06-20",
+        "ikelimas": "2024-08-13",
         "parentId": 251
     },
     {
@@ -2796,7 +2796,7 @@
         "path": "000001013483000009000001",
         "name": "Jutiklis, išilginis pagreitis",
         "kiekis": 18,
-        "ikelimas": "2024-07-25",
+        "ikelimas": "2024-08-19",
         "parentId": 251
     },
     {
@@ -2811,7 +2811,7 @@
         "id": 354,
         "path": "000001013483000009000003",
         "name": "Jutiklis, išilginis / šoninis pagreitis",
-        "kiekis": 100,
+        "kiekis": 96,
         "ikelimas": "2024-07-18",
         "parentId": 251
     },
@@ -2819,8 +2819,8 @@
         "id": 355,
         "path": "000001013483000005014121",
         "name": "Stabdžių apkaba",
-        "kiekis": 703,
-        "ikelimas": "2024-08-07",
+        "kiekis": 705,
+        "ikelimas": "2024-08-20",
         "parentId": 256
     },
     {
@@ -2835,16 +2835,16 @@
         "id": 357,
         "path": "000001013483000005014122",
         "name": "Stabdžių diskas",
-        "kiekis": 122,
-        "ikelimas": "2024-08-06",
+        "kiekis": 101,
+        "ikelimas": "2024-08-12",
         "parentId": 256
     },
     {
         "id": 358,
         "path": "000001013483000002113949",
         "name": "Rato stabdžių cilindras",
-        "kiekis": 12,
-        "ikelimas": "2024-06-25",
+        "kiekis": 10,
+        "ikelimas": "2024-06-17",
         "parentId": 257
     },
     {
@@ -2875,7 +2875,7 @@
         "id": 362,
         "path": "000001013483000006000003",
         "name": "Rankinio stabdžio svirtis",
-        "kiekis": 79,
+        "kiekis": 77,
         "ikelimas": "2024-07-10",
         "parentId": 258
     },
@@ -2883,7 +2883,7 @@
         "id": 363,
         "path": "000001013483000006000004",
         "name": "Elektromechaninių stovėjimo stabdžių mygtukas",
-        "kiekis": 124,
+        "kiekis": 122,
         "ikelimas": "2024-08-05",
         "parentId": 258
     },
@@ -2899,8 +2899,8 @@
         "id": 365,
         "path": "000001013483000006000005",
         "name": "Valdymo blokas elektromechaninių stovėjimo stabdžių",
-        "kiekis": 74,
-        "ikelimas": "2024-07-05",
+        "kiekis": 72,
+        "ikelimas": "2024-08-13",
         "parentId": 258
     },
     {
@@ -2931,7 +2931,7 @@
         "id": 369,
         "path": "000001081888032018030425",
         "name": "Durų rankenėlė, vidaus",
-        "kiekis": 114,
+        "kiekis": 113,
         "ikelimas": "2024-07-28",
         "parentId": 260
     },
@@ -2939,23 +2939,23 @@
         "id": 370,
         "path": "000001081888032018030276",
         "name": "Durų rankenėlė",
-        "kiekis": 477,
-        "ikelimas": "2024-08-01",
+        "kiekis": 474,
+        "ikelimas": "2024-08-19",
         "parentId": 260
     },
     {
         "id": 371,
         "path": "000001081888032018096834",
         "name": "Rankenėlė, bagažinės dangtis",
-        "kiekis": 32,
-        "ikelimas": "2024-08-01",
+        "kiekis": 33,
+        "ikelimas": "2024-08-18",
         "parentId": 260
     },
     {
         "id": 372,
         "path": "000001081888032018046933",
         "name": "Rankena, gaubto atidarymas",
-        "kiekis": 83,
+        "kiekis": 81,
         "ikelimas": "2024-07-11",
         "parentId": 260
     },
@@ -2963,7 +2963,7 @@
         "id": 373,
         "path": "000001081888032017130559",
         "name": "Durų užraktas",
-        "kiekis": 1731,
+        "kiekis": 1711,
         "ikelimas": "2024-08-08",
         "parentId": 261
     },
@@ -2971,16 +2971,16 @@
         "id": 374,
         "path": "000001081888032017014012",
         "name": "Gaubto užraktas",
-        "kiekis": 118,
-        "ikelimas": "2024-07-10",
+        "kiekis": 119,
+        "ikelimas": "2024-08-13",
         "parentId": 261
     },
     {
         "id": 375,
         "path": "000001081888032017014013",
         "name": "Užraktas, bagažinės dangtis",
-        "kiekis": 445,
-        "ikelimas": "2024-08-07",
+        "kiekis": 444,
+        "ikelimas": "2024-08-14",
         "parentId": 261
     },
     {
@@ -2995,7 +2995,7 @@
         "id": 377,
         "path": "00000108188803201713055A",
         "name": "Užrakto kilpa",
-        "kiekis": 13,
+        "kiekis": 12,
         "ikelimas": "2024-04-05",
         "parentId": 261
     },
@@ -3003,7 +3003,7 @@
         "id": 378,
         "path": "000001081888015826047045",
         "name": "Vairo užraktas",
-        "kiekis": 58,
+        "kiekis": 59,
         "ikelimas": "2024-08-08",
         "parentId": 262
     },
@@ -3011,7 +3011,7 @@
         "id": 379,
         "path": "000001081888015826047026",
         "name": "Užraktas, daiktadėžė",
-        "kiekis": 6,
+        "kiekis": 5,
         "ikelimas": "2024-02-27",
         "parentId": 262
     },
@@ -3019,7 +3019,7 @@
         "id": 380,
         "path": "000001081888015826046972",
         "name": "Oro pagalvės užraktas",
-        "kiekis": 25,
+        "kiekis": 24,
         "ikelimas": "2023-11-29",
         "parentId": 262
     },
@@ -3059,8 +3059,8 @@
         "id": 385,
         "path": "000001081888048802030255",
         "name": "Raktas",
-        "kiekis": 205,
-        "ikelimas": "2024-08-08",
+        "kiekis": 200,
+        "ikelimas": "2024-08-13",
         "parentId": 263
     },
     {
@@ -3083,8 +3083,8 @@
         "id": 388,
         "path": "000001081888990054990054",
         "name": "Imtuvas, beraktė sistema",
-        "kiekis": 36,
-        "ikelimas": "2024-08-06",
+        "kiekis": 37,
+        "ikelimas": "2024-08-13",
         "parentId": 266
     },
     {
@@ -3107,16 +3107,16 @@
         "id": 391,
         "path": "000001081888990054000001",
         "name": "Antena",
-        "kiekis": 280,
-        "ikelimas": "2024-08-07",
+        "kiekis": 276,
+        "ikelimas": "2024-08-13",
         "parentId": 266
     },
     {
         "id": 392,
         "path": "000001081888000001047058",
         "name": "Sirena, įspėjimo sistema",
-        "kiekis": 165,
-        "ikelimas": "2024-07-25",
+        "kiekis": 156,
+        "ikelimas": "2024-08-13",
         "parentId": 267
     },
     {
@@ -3147,8 +3147,8 @@
         "id": 396,
         "path": "000001047259000001000001",
         "name": "Kompresorius, oro kondicionierius",
-        "kiekis": 189,
-        "ikelimas": "2024-08-07",
+        "kiekis": 191,
+        "ikelimas": "2024-08-14",
         "parentId": 268
     },
     {
@@ -3156,7 +3156,7 @@
         "path": "000001047259000001014062",
         "name": "Oro Kondicionieriaus, žarnelės/vamzdeliai",
         "kiekis": 742,
-        "ikelimas": "2024-08-06",
+        "ikelimas": "2024-08-20",
         "parentId": 268
     },
     {
@@ -3171,7 +3171,7 @@
         "id": 399,
         "path": "000001047259000001013994",
         "name": "Džiovintuvas, oro kondicionierius",
-        "kiekis": 31,
+        "kiekis": 30,
         "ikelimas": "2024-07-24",
         "parentId": 268
     },
@@ -3180,14 +3180,14 @@
         "path": "000001047259000001030291",
         "name": "Kondensatorius, oro kondicionierius",
         "kiekis": 14,
-        "ikelimas": "2024-04-02",
+        "ikelimas": "2024-08-13",
         "parentId": 268
     },
     {
         "id": 401,
         "path": "000001047259000001063484",
         "name": "Pūtiklis, oro kondicionierius",
-        "kiekis": 12,
+        "kiekis": 11,
         "ikelimas": "2024-05-17",
         "parentId": 268
     },
@@ -3211,15 +3211,15 @@
         "id": 404,
         "path": "000001047259098661015817",
         "name": "Žarnelės/vamzdeliai",
-        "kiekis": 266,
-        "ikelimas": "2024-08-06",
+        "kiekis": 270,
+        "ikelimas": "2024-08-13",
         "parentId": 269
     },
     {
         "id": 405,
         "path": "000001047259098661113328",
         "name": "Papildomas šildytuvas",
-        "kiekis": 153,
+        "kiekis": 151,
         "ikelimas": "2024-08-06",
         "parentId": 269
     },
@@ -3227,7 +3227,7 @@
         "id": 406,
         "path": "000001047259098661030369",
         "name": "Vidaus pūtiklis",
-        "kiekis": 278,
+        "kiekis": 273,
         "ikelimas": "2024-08-05",
         "parentId": 269
     },
@@ -3235,8 +3235,8 @@
         "id": 407,
         "path": "000001047259098661000001",
         "name": "Rezistorius",
-        "kiekis": 198,
-        "ikelimas": "2024-05-16",
+        "kiekis": 195,
+        "ikelimas": "2024-08-13",
         "parentId": 269
     },
     {
@@ -3259,7 +3259,7 @@
         "id": 410,
         "path": "00000104725909866199005C",
         "name": "Sklendės reguliavimo varikliukas",
-        "kiekis": 346,
+        "kiekis": 334,
         "ikelimas": "2024-07-29",
         "parentId": 269
     },
@@ -3283,15 +3283,15 @@
         "id": 413,
         "path": "00000104725908193511348A",
         "name": "Valdymo blokas, automatinis kondicionieriaus valdymas",
-        "kiekis": 2036,
-        "ikelimas": "2024-08-08",
+        "kiekis": 2032,
+        "ikelimas": "2024-08-20",
         "parentId": 270
     },
     {
         "id": 414,
         "path": "000001047259081935080127",
         "name": "Valdymo blokas, oro kondicionierius",
-        "kiekis": 193,
+        "kiekis": 189,
         "ikelimas": "2024-07-24",
         "parentId": 270
     },
@@ -3299,8 +3299,8 @@
         "id": 415,
         "path": "000001047259081935000001",
         "name": "Valdymo blokas, šildymas / ventiliacija",
-        "kiekis": 235,
-        "ikelimas": "2024-07-26",
+        "kiekis": 223,
+        "ikelimas": "2024-08-19",
         "parentId": 270
     },
     {
@@ -3332,22 +3332,22 @@
         "path": "000001047259098662000001",
         "name": "Temperatūros jungiklis, oro kondicionieriaus ventiliatorius",
         "kiekis": 80,
-        "ikelimas": "2024-08-06",
+        "ikelimas": "2024-08-19",
         "parentId": 271
     },
     {
         "id": 420,
         "path": "00000104725989999A000002",
         "name": "Šildymo modulis",
-        "kiekis": 71,
-        "ikelimas": "2024-07-30",
+        "kiekis": 72,
+        "ikelimas": "2024-08-21",
         "parentId": 272
     },
     {
         "id": 421,
         "path": "00000104725989999A000003",
         "name": "Papildomas vandens siurblys",
-        "kiekis": 119,
+        "kiekis": 116,
         "ikelimas": "2024-08-06",
         "parentId": 272
     },
@@ -3379,8 +3379,8 @@
         "id": 425,
         "path": "000001990070990072014506",
         "name": "Plovimo skysčio bakelis",
-        "kiekis": 181,
-        "ikelimas": "2024-08-06",
+        "kiekis": 176,
+        "ikelimas": "2024-08-20",
         "parentId": 273
     },
     {
@@ -3427,7 +3427,7 @@
         "id": 431,
         "path": "000001990070115178080438",
         "name": "Dangtelis",
-        "kiekis": 155,
+        "kiekis": 153,
         "ikelimas": "2024-07-29",
         "parentId": 274
     },
@@ -3443,15 +3443,15 @@
         "id": 433,
         "path": "000001990070030253063596",
         "name": "Valytuvo variklis",
-        "kiekis": 301,
-        "ikelimas": "2024-07-12",
+        "kiekis": 300,
+        "ikelimas": "2024-08-13",
         "parentId": 275
     },
     {
         "id": 434,
         "path": "000001990070030253000001",
         "name": "Valytuvų mechanizmas",
-        "kiekis": 308,
+        "kiekis": 304,
         "ikelimas": "2024-08-08",
         "parentId": 275
     },
@@ -3459,8 +3459,8 @@
         "id": 435,
         "path": "000001990070030253000002",
         "name": "Valytuvo kojelė",
-        "kiekis": 314,
-        "ikelimas": "2024-07-25",
+        "kiekis": 312,
+        "ikelimas": "2024-08-13",
         "parentId": 275
     },
     {
@@ -3483,8 +3483,8 @@
         "id": 438,
         "path": "000001015709013805096895063493",
         "name": "Degalų bako dangtelis",
-        "kiekis": 135,
-        "ikelimas": "2024-07-25",
+        "kiekis": 131,
+        "ikelimas": "2024-08-21",
         "parentId": 202
     },
     {
@@ -3507,15 +3507,15 @@
         "id": 441,
         "path": "000001990272",
         "name": "Audio/ video/ navigacijos sistemos",
-        "kiekis": 356,
-        "ikelimas": "2024-07-24",
+        "kiekis": 368,
+        "ikelimas": "2024-08-21",
         "parentId": 1
     },
     {
         "id": 442,
         "path": "000001990252",
         "name": "Salonas",
-        "kiekis": 30,
+        "kiekis": 26,
         "ikelimas": "2024-06-26",
         "parentId": 1
     },
@@ -3523,7 +3523,7 @@
         "id": 443,
         "path": "000001132207063887",
         "name": "Saugos diržų sistema",
-        "kiekis": 16,
+        "kiekis": 15,
         "ikelimas": "2024-05-10",
         "parentId": 439
     },
@@ -3571,23 +3571,23 @@
         "id": 449,
         "path": "00000108188701400A",
         "name": "Starteris",
-        "kiekis": 468,
-        "ikelimas": "2024-08-01",
+        "kiekis": 469,
+        "ikelimas": "2024-08-20",
         "parentId": 440
     },
     {
         "id": 450,
         "path": "000001081887014548",
         "name": "Generatorius",
-        "kiekis": 239,
-        "ikelimas": "2024-08-07",
+        "kiekis": 244,
+        "ikelimas": "2024-08-21",
         "parentId": 440
     },
     {
         "id": 451,
         "path": "000001081887014429",
         "name": "Garsinis signalas",
-        "kiekis": 197,
+        "kiekis": 193,
         "ikelimas": "2024-07-16",
         "parentId": 440
     },
@@ -3595,16 +3595,16 @@
         "id": 452,
         "path": "000001081887014043",
         "name": "Prietaisų skydelis (spidometras)",
-        "kiekis": 4832,
-        "ikelimas": "2024-08-08",
+        "kiekis": 4789,
+        "ikelimas": "2024-08-21",
         "parentId": 440
     },
     {
         "id": 453,
         "path": "000001081887014428",
         "name": "Laikrodis",
-        "kiekis": 63,
-        "ikelimas": "2024-07-25",
+        "kiekis": 61,
+        "ikelimas": "2024-08-13",
         "parentId": 440
     },
     {
@@ -3619,7 +3619,7 @@
         "id": 455,
         "path": "000001081887015986",
         "name": "Akseleratoriaus pedalas",
-        "kiekis": 373,
+        "kiekis": 371,
         "ikelimas": "2024-07-12",
         "parentId": 440
     },
@@ -3627,8 +3627,8 @@
         "id": 456,
         "path": "000001081887014009",
         "name": "Saugiklių dėžė",
-        "kiekis": 1341,
-        "ikelimas": "2024-08-06",
+        "kiekis": 1310,
+        "ikelimas": "2024-08-19",
         "parentId": 440
     },
     {
@@ -3651,8 +3651,8 @@
         "id": 459,
         "path": "000001081887990182",
         "name": "Ventiliatoriai",
-        "kiekis": 245,
-        "ikelimas": "2024-07-29",
+        "kiekis": 254,
+        "ikelimas": "2024-08-18",
         "parentId": 440
     },
     {
@@ -3668,15 +3668,15 @@
         "path": "000001081887990181",
         "name": "Jungiklis/mygtukas",
         "kiekis": 317,
-        "ikelimas": "2024-08-06",
+        "ikelimas": "2024-08-15",
         "parentId": 440
     },
     {
         "id": 462,
         "path": "000001081887064199",
         "name": "Valdymo blokai",
-        "kiekis": 3527,
-        "ikelimas": "2024-08-07",
+        "kiekis": 3509,
+        "ikelimas": "2024-08-21",
         "parentId": 440
     },
     {
@@ -3691,15 +3691,15 @@
         "id": 464,
         "path": "00000108188706419B",
         "name": "Laidai",
-        "kiekis": 82,
-        "ikelimas": "2024-07-29",
+        "kiekis": 83,
+        "ikelimas": "2024-08-11",
         "parentId": 440
     },
     {
         "id": 465,
         "path": "000001081887013921",
         "name": "Solenoidinis vožtuvas",
-        "kiekis": 169,
+        "kiekis": 168,
         "ikelimas": "2024-05-20",
         "parentId": 440
     },
@@ -3723,8 +3723,8 @@
         "id": 468,
         "path": "000001990272000002",
         "name": "Garso stiprintuvas",
-        "kiekis": 298,
-        "ikelimas": "2024-08-07",
+        "kiekis": 294,
+        "ikelimas": "2024-08-19",
         "parentId": 441
     },
     {
@@ -3739,7 +3739,7 @@
         "id": 470,
         "path": "000001990272990266",
         "name": "Trikdžiu filtras",
-        "kiekis": 18,
+        "kiekis": 17,
         "ikelimas": "2023-09-20",
         "parentId": 441
     },
@@ -3747,7 +3747,7 @@
         "id": 471,
         "path": "000001990272990260",
         "name": "Garsiakalbiai",
-        "kiekis": 24,
+        "kiekis": 23,
         "ikelimas": "2024-06-26",
         "parentId": 441
     },
@@ -3755,7 +3755,7 @@
         "id": 472,
         "path": "000001990272990264",
         "name": "CD keitiklis",
-        "kiekis": 202,
+        "kiekis": 201,
         "ikelimas": "2024-07-10",
         "parentId": 441
     },
@@ -3763,7 +3763,7 @@
         "id": 473,
         "path": "000001990272990263",
         "name": "DVD keitiklis",
-        "kiekis": 38,
+        "kiekis": 37,
         "ikelimas": "2024-06-12",
         "parentId": 441
     },
@@ -3795,7 +3795,7 @@
         "id": 477,
         "path": "000001990272990271",
         "name": "Navigacijos blokas",
-        "kiekis": 71,
+        "kiekis": 70,
         "ikelimas": "2024-08-06",
         "parentId": 441
     },
@@ -3803,15 +3803,15 @@
         "id": 478,
         "path": "000001990272990273",
         "name": "Valdymas/mygtukai",
-        "kiekis": 303,
-        "ikelimas": "2024-07-25",
+        "kiekis": 320,
+        "ikelimas": "2024-08-18",
         "parentId": 441
     },
     {
         "id": 479,
         "path": "000001990272000003",
         "name": "Rėmelis",
-        "kiekis": 805,
+        "kiekis": 800,
         "ikelimas": "2024-04-19",
         "parentId": 441
     },
@@ -3819,15 +3819,15 @@
         "id": 480,
         "path": "000001990252115220",
         "name": "Sėdynės/dalys",
-        "kiekis": 52,
-        "ikelimas": "2024-07-12",
+        "kiekis": 49,
+        "ikelimas": "2024-08-13",
         "parentId": 442
     },
     {
         "id": 481,
         "path": "000001990252990253",
         "name": "Bagažinės apmušimai, apdaila/kilimai",
-        "kiekis": 71,
+        "kiekis": 67,
         "ikelimas": "2024-05-27",
         "parentId": 442
     },
@@ -3835,7 +3835,7 @@
         "id": 482,
         "path": "000001990252990251",
         "name": "Atramų apdaila",
-        "kiekis": 13,
+        "kiekis": 9,
         "ikelimas": "2024-06-26",
         "parentId": 442
     },
@@ -3851,7 +3851,7 @@
         "id": 484,
         "path": "000001990252990225",
         "name": "Kilimėlių komplektas",
-        "kiekis": 27,
+        "kiekis": 26,
         "ikelimas": "2024-07-25",
         "parentId": 442
     },
@@ -3867,7 +3867,7 @@
         "id": 486,
         "path": "000001990252990227",
         "name": "Stogo apmušalas, apdaila",
-        "kiekis": 319,
+        "kiekis": 316,
         "ikelimas": "2024-07-22",
         "parentId": 442
     },
@@ -3891,8 +3891,8 @@
         "id": 489,
         "path": "000001990252114050",
         "name": "Saulės skydelis",
-        "kiekis": 370,
-        "ikelimas": "2024-08-05",
+        "kiekis": 368,
+        "ikelimas": "2024-08-08",
         "parentId": 442
     },
     {
@@ -3907,7 +3907,7 @@
         "id": 491,
         "path": "000001990252990250",
         "name": "Garso izoliacija",
-        "kiekis": 37,
+        "kiekis": 36,
         "ikelimas": "2024-07-15",
         "parentId": 442
     },
@@ -3915,7 +3915,7 @@
         "id": 492,
         "path": "000001990252031924",
         "name": "Vidaus apšvietimas",
-        "kiekis": 148,
+        "kiekis": 147,
         "ikelimas": "2024-07-29",
         "parentId": 442
     },
@@ -3923,16 +3923,16 @@
         "id": 493,
         "path": "000001132207063887000001",
         "name": "Saugos diržas",
-        "kiekis": 979,
-        "ikelimas": "2024-07-29",
+        "kiekis": 963,
+        "ikelimas": "2024-08-13",
         "parentId": 443
     },
     {
         "id": 494,
         "path": "000001132207063887080664",
         "name": "Saugos diržo sagtis",
-        "kiekis": 312,
-        "ikelimas": "2024-07-17",
+        "kiekis": 301,
+        "ikelimas": "2024-08-13",
         "parentId": 443
     },
     {
@@ -3947,47 +3947,47 @@
         "id": 496,
         "path": "000001132207098705098079",
         "name": "Vairuotojo oro pagalvė",
-        "kiekis": 359,
-        "ikelimas": "2024-08-08",
+        "kiekis": 353,
+        "ikelimas": "2024-08-19",
         "parentId": 444
     },
     {
         "id": 497,
         "path": "000001132207098705015214",
         "name": "Kelių / pėdų oro pagalvė",
-        "kiekis": 102,
-        "ikelimas": "2024-07-25",
+        "kiekis": 98,
+        "ikelimas": "2024-08-12",
         "parentId": 444
     },
     {
         "id": 498,
         "path": "000001132207098705131237",
         "name": "Priekinė keleivio oro pagalvė",
-        "kiekis": 408,
-        "ikelimas": "2024-08-05",
+        "kiekis": 409,
+        "ikelimas": "2024-08-09",
         "parentId": 444
     },
     {
         "id": 499,
         "path": "000001132207098705131238",
         "name": "Šoninė oro pagalvė",
-        "kiekis": 391,
-        "ikelimas": "2024-08-06",
+        "kiekis": 390,
+        "ikelimas": "2024-08-19",
         "parentId": 444
     },
     {
         "id": 500,
         "path": "000001132207098705098080",
         "name": "Galvos oro pagalvė",
-        "kiekis": 727,
-        "ikelimas": "2024-07-29",
+        "kiekis": 726,
+        "ikelimas": "2024-08-21",
         "parentId": 444
     },
     {
         "id": 501,
         "path": "000001132207098705046972",
         "name": "Oro pagalvės užraktas",
-        "kiekis": 24,
+        "kiekis": 23,
         "ikelimas": "2023-11-29",
         "parentId": 444
     },
@@ -4019,7 +4019,7 @@
         "id": 505,
         "path": "000001132207098705131239",
         "name": "Valdymo blokas oro pagalvių",
-        "kiekis": 242,
+        "kiekis": 239,
         "ikelimas": "2024-08-08",
         "parentId": 444
     },
@@ -4027,7 +4027,7 @@
         "id": 506,
         "path": "000001132207098705990095",
         "name": "Smugio garso jutiklis",
-        "kiekis": 95,
+        "kiekis": 94,
         "ikelimas": "2024-04-09",
         "parentId": 444
     },
@@ -4059,8 +4059,8 @@
         "id": 510,
         "path": "000001132207990275000001",
         "name": "Kamera",
-        "kiekis": 329,
-        "ikelimas": "2024-08-08",
+        "kiekis": 323,
+        "ikelimas": "2024-08-21",
         "parentId": 445
     },
     {
@@ -4084,7 +4084,7 @@
         "path": "000001132207990275990092",
         "name": "Valdymo blokas kamerai",
         "kiekis": 21,
-        "ikelimas": "2024-06-24",
+        "ikelimas": "2024-08-08",
         "parentId": 445
     },
     {
@@ -4139,8 +4139,8 @@
         "id": 520,
         "path": "000001132207032003014637",
         "name": "Parkavimo sistemos jutiklis",
-        "kiekis": 97,
-        "ikelimas": "2024-06-14",
+        "kiekis": 96,
+        "ikelimas": "2024-08-13",
         "parentId": 446
     },
     {
@@ -4155,7 +4155,7 @@
         "id": 522,
         "path": "000001132207032003030823",
         "name": "Valdymo blokas parkavimo sistemos",
-        "kiekis": 114,
+        "kiekis": 110,
         "ikelimas": "2024-04-25",
         "parentId": 446
     },
@@ -4203,8 +4203,8 @@
         "id": 528,
         "path": "000001081887990201990062",
         "name": "Langų pakėlimo varikliukas",
-        "kiekis": 1596,
-        "ikelimas": "2024-08-07",
+        "kiekis": 1578,
+        "ikelimas": "2024-08-18",
         "parentId": 454
     },
     {
@@ -4212,22 +4212,22 @@
         "path": "000001081887990201990064",
         "name": "Liuko varikliukas",
         "kiekis": 42,
-        "ikelimas": "2024-07-31",
+        "ikelimas": "2024-08-13",
         "parentId": 454
     },
     {
         "id": 530,
         "path": "000001081887990201000001",
         "name": "Valytuvo variklis",
-        "kiekis": 1269,
-        "ikelimas": "2024-07-30",
+        "kiekis": 1262,
+        "ikelimas": "2024-08-09",
         "parentId": 454
     },
     {
         "id": 531,
         "path": "000001081887990201065317",
         "name": "Sklendės reguliavimo varikliukas",
-        "kiekis": 379,
+        "kiekis": 367,
         "ikelimas": "2024-07-29",
         "parentId": 454
     },
@@ -4235,23 +4235,23 @@
         "id": 532,
         "path": "000001081887990201065315",
         "name": "Elektrovariklis, sėdynės reguliavimas",
-        "kiekis": 212,
-        "ikelimas": "2024-07-29",
+        "kiekis": 203,
+        "ikelimas": "2024-08-09",
         "parentId": 454
     },
     {
         "id": 533,
         "path": "000001081887990201063597",
         "name": "Variklis, priekinių žibintų diapazono reguliavimas",
-        "kiekis": 20,
-        "ikelimas": "2024-04-05",
+        "kiekis": 18,
+        "ikelimas": "2024-02-24",
         "parentId": 454
     },
     {
         "id": 534,
         "path": "000001081887990201990179",
         "name": "Variklis durų uždarymo",
-        "kiekis": 29,
+        "kiekis": 28,
         "ikelimas": "2024-06-17",
         "parentId": 454
     },
@@ -4267,16 +4267,16 @@
         "id": 536,
         "path": "000001081887115169048885",
         "name": "Saugiklis",
-        "kiekis": 20,
-        "ikelimas": "2024-07-05",
+        "kiekis": 19,
+        "ikelimas": "2024-06-25",
         "parentId": 457
     },
     {
         "id": 537,
         "path": "000001081887115169000001",
         "name": "Relės",
-        "kiekis": 188,
-        "ikelimas": "2024-07-24",
+        "kiekis": 184,
+        "ikelimas": "2024-08-13",
         "parentId": 457
     },
     {
@@ -4315,8 +4315,8 @@
         "id": 542,
         "path": "00000108188799019911408A",
         "name": "Papildomas vandens siurblys",
-        "kiekis": 104,
-        "ikelimas": "2024-07-30",
+        "kiekis": 101,
+        "ikelimas": "2024-08-20",
         "parentId": 458
     },
     {
@@ -4331,7 +4331,7 @@
         "id": 544,
         "path": "000001081887990199990068",
         "name": "Langų ploviklio siurbliukas",
-        "kiekis": 101,
+        "kiekis": 100,
         "ikelimas": "2024-07-24",
         "parentId": 458
     },
@@ -4339,15 +4339,15 @@
         "id": 545,
         "path": "000001081887990199990072",
         "name": "Kompresorius, orinės važiuoklės",
-        "kiekis": 27,
-        "ikelimas": "2024-08-06",
+        "kiekis": 25,
+        "ikelimas": "2024-08-13",
         "parentId": 458
     },
     {
         "id": 546,
         "path": "000001081887990182015825",
         "name": "Vidaus pūtiklis",
-        "kiekis": 286,
+        "kiekis": 284,
         "ikelimas": "2024-08-07",
         "parentId": 459
     },
@@ -4355,7 +4355,7 @@
         "id": 547,
         "path": "000001081887990182000001",
         "name": "Radiatoriaus ventiliatorius",
-        "kiekis": 108,
+        "kiekis": 107,
         "ikelimas": "2024-08-06",
         "parentId": 459
     },
@@ -4371,7 +4371,7 @@
         "id": 549,
         "path": "00000108188799019B097474",
         "name": "Relė, kaitinimo žvakių sistema",
-        "kiekis": 123,
+        "kiekis": 122,
         "ikelimas": "2024-08-01",
         "parentId": 460
     },
@@ -4395,8 +4395,8 @@
         "id": 552,
         "path": "00000108188799019B000001",
         "name": "Uždegimo ritė",
-        "kiekis": 401,
-        "ikelimas": "2024-07-30",
+        "kiekis": 403,
+        "ikelimas": "2024-08-13",
         "parentId": 460
     },
     {
@@ -4419,15 +4419,15 @@
         "id": 555,
         "path": "00000108188799018199004A",
         "name": "Mygtukas, kuro bako dangtelio atidarymui",
-        "kiekis": 31,
-        "ikelimas": "2024-07-10",
+        "kiekis": 32,
+        "ikelimas": "2024-08-13",
         "parentId": 461
     },
     {
         "id": 556,
         "path": "000001081887990181990137",
         "name": "Mygtukas, bagažinės dangčio",
-        "kiekis": 207,
+        "kiekis": 206,
         "ikelimas": "2024-08-05",
         "parentId": 461
     },
@@ -4435,7 +4435,7 @@
         "id": 557,
         "path": "000001081887990181990139",
         "name": "Mygtukas elektra valdomų veidrodelių",
-        "kiekis": 203,
+        "kiekis": 201,
         "ikelimas": "2024-07-29",
         "parentId": 461
     },
@@ -4468,14 +4468,14 @@
         "path": "000001081887990181990142",
         "name": "Langų pakėlimo mygtukas",
         "kiekis": 1236,
-        "ikelimas": "2024-08-07",
+        "ikelimas": "2024-08-19",
         "parentId": 461
     },
     {
         "id": 562,
         "path": "000001081887990181990143",
         "name": "Šviesų jungiklis",
-        "kiekis": 690,
+        "kiekis": 687,
         "ikelimas": "2024-07-31",
         "parentId": 461
     },
@@ -4499,31 +4499,31 @@
         "id": 565,
         "path": "000001081887990181990148",
         "name": "Vairo kolonėlės svirtis, jungiklis",
-        "kiekis": 326,
-        "ikelimas": "2024-07-17",
+        "kiekis": 312,
+        "ikelimas": "2024-08-19",
         "parentId": 461
     },
     {
         "id": 566,
         "path": "000001081887990181990149",
         "name": "Vairo kolonėles svirčių/jungiklių blokas",
-        "kiekis": 831,
-        "ikelimas": "2024-08-06",
+        "kiekis": 824,
+        "ikelimas": "2024-08-19",
         "parentId": 461
     },
     {
         "id": 567,
         "path": "00000108188799018199014A",
         "name": "Svirtis/jungiklis langų plovimas/valymas",
-        "kiekis": 228,
-        "ikelimas": "2024-07-16",
+        "kiekis": 232,
+        "ikelimas": "2024-08-19",
         "parentId": 461
     },
     {
         "id": 568,
         "path": "00000108188799018199014B",
         "name": "Svirtis/jungiklis posukių, trumpų ilgų šviesų",
-        "kiekis": 152,
+        "kiekis": 151,
         "ikelimas": "2024-07-16",
         "parentId": 461
     },
@@ -4539,8 +4539,8 @@
         "id": 570,
         "path": "00000108188799018199014D",
         "name": "Avarinio signalo jungiklis",
-        "kiekis": 250,
-        "ikelimas": "2024-07-11",
+        "kiekis": 248,
+        "ikelimas": "2024-08-14",
         "parentId": 461
     },
     {
@@ -4571,7 +4571,7 @@
         "id": 574,
         "path": "000001081887990181990156",
         "name": "Sėdynės reguliavimo jungiklis",
-        "kiekis": 108,
+        "kiekis": 104,
         "ikelimas": "2024-08-07",
         "parentId": 461
     },
@@ -4579,15 +4579,15 @@
         "id": 575,
         "path": "000001081887990181990157",
         "name": "Sėdynių šildymo jungiklis",
-        "kiekis": 160,
-        "ikelimas": "2024-07-29",
+        "kiekis": 158,
+        "ikelimas": "2024-08-09",
         "parentId": 461
     },
     {
         "id": 576,
         "path": "000001081887990181990158",
         "name": "Vairo kolonelės reguliavimo jungiklis",
-        "kiekis": 13,
+        "kiekis": 12,
         "ikelimas": "2024-02-08",
         "parentId": 461
     },
@@ -4595,7 +4595,7 @@
         "id": 577,
         "path": "000001081887990181000001",
         "name": "Elektromechaninių stovėjimo stabdžių mygtukas",
-        "kiekis": 58,
+        "kiekis": 57,
         "ikelimas": "2024-07-08",
         "parentId": 461
     },
@@ -4611,7 +4611,7 @@
         "id": 579,
         "path": "00000108188799018199015B",
         "name": "Jungiklis keleivio oro pagalvės išjungimui",
-        "kiekis": 47,
+        "kiekis": 44,
         "ikelimas": "2024-06-04",
         "parentId": 461
     },
@@ -4627,7 +4627,7 @@
         "id": 581,
         "path": "000001081887990181990163",
         "name": "Start-stop mygtukas",
-        "kiekis": 150,
+        "kiekis": 147,
         "ikelimas": "2024-07-29",
         "parentId": 461
     },
@@ -4667,8 +4667,8 @@
         "id": 586,
         "path": "000001081887990181990168",
         "name": "Jungiklis stabilumo kontroles ESP",
-        "kiekis": 96,
-        "ikelimas": "2024-06-26",
+        "kiekis": 97,
+        "ikelimas": "2024-08-09",
         "parentId": 461
     },
     {
@@ -4683,16 +4683,16 @@
         "id": 588,
         "path": "00000108188799018199016B",
         "name": "Vairo mygtukai",
-        "kiekis": 197,
-        "ikelimas": "2024-08-08",
+        "kiekis": 201,
+        "ikelimas": "2024-08-19",
         "parentId": 461
     },
     {
         "id": 589,
         "path": "00000108188799018199016C",
         "name": "Jungiklių (mygtukų) blokas",
-        "kiekis": 771,
-        "ikelimas": "2024-08-07",
+        "kiekis": 757,
+        "ikelimas": "2024-08-08",
         "parentId": 461
     },
     {
@@ -4779,7 +4779,7 @@
         "id": 600,
         "path": "000001081887064199000001",
         "name": "Diagnostikos sąsaja (Gateway)",
-        "kiekis": 173,
+        "kiekis": 169,
         "ikelimas": "2024-07-31",
         "parentId": 462
     },
@@ -4795,7 +4795,7 @@
         "id": 602,
         "path": "00000108188711516801403A",
         "name": "Jutiklis, išilginis pagreitis",
-        "kiekis": 11,
+        "kiekis": 10,
         "ikelimas": "2023-10-09",
         "parentId": 463
     },
@@ -4803,8 +4803,8 @@
         "id": 603,
         "path": "000001081887115168047315",
         "name": "Oro srauto jutiklis",
-        "kiekis": 156,
-        "ikelimas": "2024-07-11",
+        "kiekis": 154,
+        "ikelimas": "2024-08-12",
         "parentId": 463
     },
     {
@@ -4819,8 +4819,8 @@
         "id": 605,
         "path": "000001081887115168014146",
         "name": "Lietaus jutiklis",
-        "kiekis": 186,
-        "ikelimas": "2024-08-07",
+        "kiekis": 187,
+        "ikelimas": "2024-08-12",
         "parentId": 463
     },
     {
@@ -4835,8 +4835,8 @@
         "id": 607,
         "path": "000001081887115168014631",
         "name": "Parkavimo sistemos jutiklis",
-        "kiekis": 295,
-        "ikelimas": "2024-08-08",
+        "kiekis": 292,
+        "ikelimas": "2024-08-21",
         "parentId": 463
     },
     {
@@ -4883,7 +4883,7 @@
         "id": 613,
         "path": "000001081887115168047082",
         "name": "Jutiklis, pneumatinės pakabos lygis",
-        "kiekis": 91,
+        "kiekis": 90,
         "ikelimas": "2024-07-24",
         "parentId": 463
     },
@@ -4892,15 +4892,15 @@
         "path": "000001081887115168047084",
         "name": "Jutiklis, degalų slėgis",
         "kiekis": 14,
-        "ikelimas": "2024-06-26",
+        "ikelimas": "2024-08-13",
         "parentId": 463
     },
     {
         "id": 615,
         "path": "000001081887115168047178",
         "name": "Jutiklis, išmetimo slėgis",
-        "kiekis": 19,
-        "ikelimas": "2023-07-20",
+        "kiekis": 20,
+        "ikelimas": "2024-08-11",
         "parentId": 463
     },
     {
@@ -4948,7 +4948,7 @@
         "path": "000001081887115168063682",
         "name": "Ratų greičio jutiklis",
         "kiekis": 4,
-        "ikelimas": "2023-10-24",
+        "ikelimas": "2024-08-12",
         "parentId": 463
     },
     {
@@ -5017,10 +5017,10 @@
     },
     {
         "id": 630,
-        "path": "000001081887115168990176",
+        "path": "00000108188711516813054A",
         "name": "Smūgio jutiklis (oro pagalvių sistemos)",
-        "kiekis": 470,
-        "ikelimas": "2024-08-06",
+        "kiekis": 443,
+        "ikelimas": "2024-08-14",
         "parentId": 463
     },
     {
@@ -5051,7 +5051,7 @@
         "id": 634,
         "path": "00000108188706419B097055",
         "name": "Variklio skyriaus laidai",
-        "kiekis": 242,
+        "kiekis": 239,
         "ikelimas": "2024-08-05",
         "parentId": 464
     },
@@ -5059,8 +5059,8 @@
         "id": 635,
         "path": "00000108188706419B097056",
         "name": "Akumuliatoriaus laidai",
-        "kiekis": 211,
-        "ikelimas": "2024-07-24",
+        "kiekis": 209,
+        "ikelimas": "2024-08-13",
         "parentId": 464
     },
     {
@@ -5091,16 +5091,16 @@
         "id": 639,
         "path": "000001990272990270000001",
         "name": "Antena",
-        "kiekis": 362,
-        "ikelimas": "2024-08-08",
+        "kiekis": 356,
+        "ikelimas": "2024-08-13",
         "parentId": 467
     },
     {
         "id": 640,
         "path": "000001990272990270096782",
         "name": "Antenos stiprintuvas",
-        "kiekis": 369,
-        "ikelimas": "2024-08-07",
+        "kiekis": 368,
+        "ikelimas": "2024-08-13",
         "parentId": 467
     },
     {
@@ -5115,8 +5115,8 @@
         "id": 642,
         "path": "000001990272990260000001",
         "name": "Garsiakalbis",
-        "kiekis": 740,
-        "ikelimas": "2024-08-07",
+        "kiekis": 738,
+        "ikelimas": "2024-08-21",
         "parentId": 471
     },
     {
@@ -5124,30 +5124,30 @@
         "path": "000001990272990260990262",
         "name": "Žemų dažnių garsiakalbis",
         "kiekis": 152,
-        "ikelimas": "2024-08-07",
+        "ikelimas": "2024-08-19",
         "parentId": 471
     },
     {
         "id": 644,
         "path": "000001990272990260990235",
         "name": "Aukštų dažnių garsiakalbis",
-        "kiekis": 395,
-        "ikelimas": "2024-08-07",
+        "kiekis": 393,
+        "ikelimas": "2024-08-21",
         "parentId": 471
     },
     {
         "id": 645,
         "path": "000001990272990260990234",
         "name": "Garsiakalbio grotelės",
-        "kiekis": 206,
-        "ikelimas": "2024-06-11",
+        "kiekis": 205,
+        "ikelimas": "2024-08-06",
         "parentId": 471
     },
     {
         "id": 646,
         "path": "000001990272990271080204",
         "name": "Radijas / magentola",
-        "kiekis": 63,
+        "kiekis": 62,
         "ikelimas": "2024-06-24",
         "parentId": 477
     },
@@ -5155,8 +5155,8 @@
         "id": 647,
         "path": "000001990272990271096977",
         "name": "Radijas / CD grotuvas",
-        "kiekis": 2857,
-        "ikelimas": "2024-08-08",
+        "kiekis": 2841,
+        "ikelimas": "2024-08-20",
         "parentId": 477
     },
     {
@@ -5172,7 +5172,7 @@
         "path": "000001990272990271081199",
         "name": "Ekranas",
         "kiekis": 1082,
-        "ikelimas": "2024-08-07",
+        "ikelimas": "2024-08-21",
         "parentId": 477
     },
     {
@@ -5187,8 +5187,8 @@
         "id": 651,
         "path": "000001990272990273990146",
         "name": "Vairo kolonėlės svirtis, jungiklis",
-        "kiekis": 261,
-        "ikelimas": "2024-08-06",
+        "kiekis": 248,
+        "ikelimas": "2024-08-19",
         "parentId": 478
     },
     {
@@ -5211,7 +5211,7 @@
         "id": 654,
         "path": "000001990252115220990206",
         "name": "Keleivio sėdynė",
-        "kiekis": 17,
+        "kiekis": 16,
         "ikelimas": "2024-08-07",
         "parentId": 480
     },
@@ -5219,7 +5219,7 @@
         "id": 655,
         "path": "000001990252115220990207",
         "name": "Vairuotojo sėdynė",
-        "kiekis": 13,
+        "kiekis": 12,
         "ikelimas": "2024-08-07",
         "parentId": 480
     },
@@ -5235,24 +5235,24 @@
         "id": 657,
         "path": "000001990252115220097351",
         "name": "Galvos atlošas",
-        "kiekis": 61,
-        "ikelimas": "2024-07-29",
+        "kiekis": 55,
+        "ikelimas": "2024-08-19",
         "parentId": 480
     },
     {
         "id": 658,
         "path": "000001990252990253000001",
         "name": "Bagažinės apmušimai, apdaila",
-        "kiekis": 185,
-        "ikelimas": "2024-07-24",
+        "kiekis": 178,
+        "ikelimas": "2024-08-12",
         "parentId": 481
     },
     {
         "id": 659,
         "path": "000001990252990253990210",
         "name": "Bagažinės kilimas",
-        "kiekis": 41,
-        "ikelimas": "2024-08-06",
+        "kiekis": 40,
+        "ikelimas": "2024-08-13",
         "parentId": 481
     },
     {
@@ -5275,7 +5275,7 @@
         "id": 662,
         "path": "000001990252990253990213",
         "name": "Vidinis bagažinės dangtis, palangė",
-        "kiekis": 53,
+        "kiekis": 51,
         "ikelimas": "2024-08-06",
         "parentId": 481
     },
@@ -5291,7 +5291,7 @@
         "id": 664,
         "path": "000001990252990253990216",
         "name": "Panelė bagažinės spynos kilpos",
-        "kiekis": 57,
+        "kiekis": 56,
         "ikelimas": "2024-07-29",
         "parentId": 481
     },
@@ -5299,8 +5299,8 @@
         "id": 665,
         "path": "000001990252990253990217",
         "name": "Įrankių dėžė",
-        "kiekis": 56,
-        "ikelimas": "2024-07-31",
+        "kiekis": 54,
+        "ikelimas": "2024-08-08",
         "parentId": 481
     },
     {
@@ -5331,23 +5331,23 @@
         "id": 669,
         "path": "000001990252990251000002",
         "name": "Apdaila, A-atrama (priekinė)",
-        "kiekis": 567,
-        "ikelimas": "2024-07-31",
+        "kiekis": 565,
+        "ikelimas": "2024-08-08",
         "parentId": 482
     },
     {
         "id": 670,
         "path": "000001990252990251000003",
         "name": "Apdaila, B-atrama (vidurinė)",
-        "kiekis": 771,
-        "ikelimas": "2024-08-07",
+        "kiekis": 767,
+        "ikelimas": "2024-08-08",
         "parentId": 482
     },
     {
         "id": 671,
         "path": "000001990252990251000004",
         "name": "Apdaila, C-atrama (prie galinių durų)",
-        "kiekis": 518,
+        "kiekis": 508,
         "ikelimas": "2024-08-05",
         "parentId": 482
     },
@@ -5355,16 +5355,16 @@
         "id": 672,
         "path": "000001990252990251000005",
         "name": "Apdaila, D-atrama (bagažinės)",
-        "kiekis": 182,
-        "ikelimas": "2024-07-25",
+        "kiekis": 185,
+        "ikelimas": "2024-08-09",
         "parentId": 482
     },
     {
         "id": 673,
         "path": "000001990252990251000001",
         "name": "Durų slenksčio apdaila",
-        "kiekis": 243,
-        "ikelimas": "2024-08-07",
+        "kiekis": 241,
+        "ikelimas": "2024-08-12",
         "parentId": 482
     },
     {
@@ -5387,23 +5387,23 @@
         "id": 676,
         "path": "000001990252990233990244",
         "name": "Prietaisų skydas (panelė)",
-        "kiekis": 152,
-        "ikelimas": "2024-08-05",
+        "kiekis": 148,
+        "ikelimas": "2024-08-06",
         "parentId": 490
     },
     {
         "id": 677,
         "path": "000001990252990233990243",
         "name": "Rėmelis",
-        "kiekis": 2025,
-        "ikelimas": "2024-08-07",
+        "kiekis": 2016,
+        "ikelimas": "2024-08-21",
         "parentId": 490
     },
     {
         "id": 678,
         "path": "000001990252990233990239",
         "name": "Daiktadėžė",
-        "kiekis": 175,
+        "kiekis": 173,
         "ikelimas": "2024-08-07",
         "parentId": 490
     },
@@ -5411,7 +5411,7 @@
         "id": 679,
         "path": "000001990252990233990227",
         "name": "Vairo kolonėlės apdaila",
-        "kiekis": 134,
+        "kiekis": 130,
         "ikelimas": "2024-08-07",
         "parentId": 490
     },
@@ -5443,7 +5443,7 @@
         "id": 683,
         "path": "000001990252990233990241",
         "name": "Centrinė konsolė",
-        "kiekis": 110,
+        "kiekis": 109,
         "ikelimas": "2024-07-25",
         "parentId": 490
     },
@@ -5451,7 +5451,7 @@
         "id": 684,
         "path": "000001990252990233990242",
         "name": "Porankis",
-        "kiekis": 53,
+        "kiekis": 51,
         "ikelimas": "2024-08-07",
         "parentId": 490
     },
@@ -5459,7 +5459,7 @@
         "id": 685,
         "path": "000001990252990233063726",
         "name": "Peleninė",
-        "kiekis": 99,
+        "kiekis": 97,
         "ikelimas": "2024-07-29",
         "parentId": 490
     },
@@ -5467,8 +5467,8 @@
         "id": 686,
         "path": "000001990252990233990245",
         "name": "Laikiklis/tvirtinimas",
-        "kiekis": 530,
-        "ikelimas": "2024-07-31",
+        "kiekis": 524,
+        "ikelimas": "2024-08-21",
         "parentId": 490
     },
     {
@@ -5476,30 +5476,30 @@
         "path": "000001990252990233990062",
         "name": "Oro kanalai",
         "kiekis": 18,
-        "ikelimas": "2024-07-28",
+        "ikelimas": "2024-08-21",
         "parentId": 490
     },
     {
         "id": 688,
         "path": "000001990252990233990063",
         "name": "Orlaidė",
-        "kiekis": 1350,
-        "ikelimas": "2024-08-06",
+        "kiekis": 1306,
+        "ikelimas": "2024-08-19",
         "parentId": 490
     },
     {
         "id": 689,
         "path": "000001990252990233990249",
         "name": "Laikiklis centrinės konsolės",
-        "kiekis": 15,
-        "ikelimas": "2024-07-10",
+        "kiekis": 16,
+        "ikelimas": "2024-08-08",
         "parentId": 490
     },
     {
         "id": 690,
         "path": "000001990252990233115102",
         "name": "Cigarečių uždegiklis",
-        "kiekis": 14,
+        "kiekis": 13,
         "ikelimas": "2024-05-29",
         "parentId": 490
     },
@@ -5507,8 +5507,8 @@
         "id": 691,
         "path": "000001990252031924990319",
         "name": "Vidaus apšvietimas",
-        "kiekis": 738,
-        "ikelimas": "2024-08-07",
+        "kiekis": 719,
+        "ikelimas": "2024-08-14",
         "parentId": 492
     },
     {
@@ -5547,8 +5547,8 @@
         "id": 696,
         "path": "000001081887064199990185000001",
         "name": "Valdymo blokas variklio",
-        "kiekis": 4233,
-        "ikelimas": "2024-08-08",
+        "kiekis": 4250,
+        "ikelimas": "2024-08-21",
         "parentId": 592
     },
     {
@@ -5571,8 +5571,8 @@
         "id": 699,
         "path": "00000108188706419999018599007B",
         "name": "Valdymo blokas kuro bako siurblio",
-        "kiekis": 75,
-        "ikelimas": "2024-07-29",
+        "kiekis": 72,
+        "ikelimas": "2024-08-09",
         "parentId": 592
     },
     {
@@ -5619,8 +5619,8 @@
         "id": 705,
         "path": "000001081887064199990186000001",
         "name": "Valdymo blokas oro pagalvių",
-        "kiekis": 453,
-        "ikelimas": "2024-08-08",
+        "kiekis": 440,
+        "ikelimas": "2024-08-19",
         "parentId": 593
     },
     {
@@ -5628,7 +5628,7 @@
         "path": "000001081887064199990186990087",
         "name": "Valdymo blokas padangų slėgio stebėjimui",
         "kiekis": 74,
-        "ikelimas": "2024-07-18",
+        "ikelimas": "2024-08-13",
         "parentId": 593
     },
     {
@@ -5667,8 +5667,8 @@
         "id": 711,
         "path": "000001081887064199990186990093",
         "name": "Valdymo blokas kamerai",
-        "kiekis": 85,
-        "ikelimas": "2024-08-06",
+        "kiekis": 87,
+        "ikelimas": "2024-08-14",
         "parentId": 593
     },
     {
@@ -5691,8 +5691,8 @@
         "id": 714,
         "path": "000001081887064199990186990096",
         "name": "Valdymo blokas  aklos zonos stebėjimas",
-        "kiekis": 125,
-        "ikelimas": "2024-08-01",
+        "kiekis": 124,
+        "ikelimas": "2024-08-13",
         "parentId": 593
     },
     {
@@ -5707,15 +5707,15 @@
         "id": 716,
         "path": "000001081887064199990186990098",
         "name": "Valdymo blokas parkavimo sistemos",
-        "kiekis": 232,
-        "ikelimas": "2024-07-31",
+        "kiekis": 226,
+        "ikelimas": "2024-08-13",
         "parentId": 593
     },
     {
         "id": 717,
         "path": "000001081887064199990186990099",
         "name": "Valdymo blokas navigacijos sistemos",
-        "kiekis": 54,
+        "kiekis": 53,
         "ikelimas": "2024-07-23",
         "parentId": 593
     },
@@ -5731,7 +5731,7 @@
         "id": 719,
         "path": "00000108188706419999018699009C",
         "name": "Valdymo blokas aktyvaus vairavimo",
-        "kiekis": 2,
+        "kiekis": 1,
         "ikelimas": "2024-05-29",
         "parentId": 593
     },
@@ -5779,7 +5779,7 @@
         "id": 725,
         "path": "000001081887064199990187000003",
         "name": "Valdymo blokas diferencialo blokavimas",
-        "kiekis": 4,
+        "kiekis": 3,
         "ikelimas": "2024-04-19",
         "parentId": 594
     },
@@ -5795,15 +5795,15 @@
         "id": 727,
         "path": "000001081887064199990188000001",
         "name": "Valdymo blokas ABS hidraulika",
-        "kiekis": 658,
-        "ikelimas": "2024-08-07",
+        "kiekis": 643,
+        "ikelimas": "2024-08-21",
         "parentId": 595
     },
     {
         "id": 728,
         "path": "000001081887064199990188000002",
         "name": "Valdymo blokas elektromechaninių stovėjimo stabdžių",
-        "kiekis": 64,
+        "kiekis": 61,
         "ikelimas": "2024-07-09",
         "parentId": 595
     },
@@ -5811,8 +5811,8 @@
         "id": 729,
         "path": "000001081887064199990190000003",
         "name": "Valdymo blokas važiuoklės",
-        "kiekis": 32,
-        "ikelimas": "2024-07-31",
+        "kiekis": 29,
+        "ikelimas": "2024-08-13",
         "parentId": 596
     },
     {
@@ -5820,7 +5820,7 @@
         "path": "000001081887064199990190990102",
         "name": "Valdymo blokas automatinis aukščio reguliavimas",
         "kiekis": 32,
-        "ikelimas": "2024-07-15",
+        "ikelimas": "2024-08-14",
         "parentId": 596
     },
     {
@@ -5828,7 +5828,7 @@
         "path": "000001081887064199990190990107",
         "name": "Valdymo blokas orinė pakaba",
         "kiekis": 42,
-        "ikelimas": "2024-08-02",
+        "ikelimas": "2024-08-13",
         "parentId": 596
     },
     {
@@ -5851,16 +5851,16 @@
         "id": 734,
         "path": "00000108188706419999019199009C",
         "name": "Centrinis valdymo blokas komforto sistemos",
-        "kiekis": 512,
-        "ikelimas": "2024-07-29",
+        "kiekis": 506,
+        "ikelimas": "2024-08-13",
         "parentId": 597
     },
     {
         "id": 735,
         "path": "00000108188706419999019199009D",
         "name": "Valdymo blokas kėbulo BCM FEM SAM BSI",
-        "kiekis": 347,
-        "ikelimas": "2024-08-08",
+        "kiekis": 330,
+        "ikelimas": "2024-08-13",
         "parentId": 597
     },
     {
@@ -5876,23 +5876,23 @@
         "path": "000001081887064199990191990113",
         "name": "Valdymo blokas sėdynės",
         "kiekis": 159,
-        "ikelimas": "2024-08-07",
+        "ikelimas": "2024-08-13",
         "parentId": 597
     },
     {
         "id": 738,
         "path": "000001081887064199990191990114",
         "name": "Valdymo blokas šildomos sėdynės",
-        "kiekis": 23,
-        "ikelimas": "2024-06-26",
+        "kiekis": 22,
+        "ikelimas": "2024-08-13",
         "parentId": 597
     },
     {
         "id": 739,
         "path": "000001081887064199990191990115",
         "name": "Valdymo blokas elektra reguliuojamos vairo kolonėlės",
-        "kiekis": 10,
-        "ikelimas": "2024-08-06",
+        "kiekis": 11,
+        "ikelimas": "2024-08-12",
         "parentId": 597
     },
     {
@@ -5907,7 +5907,7 @@
         "id": 741,
         "path": "000001081887064199990191990117",
         "name": "Valdymo blokas priekinio stiklo projekcijai (Head-up display)",
-        "kiekis": 51,
+        "kiekis": 50,
         "ikelimas": "2024-08-06",
         "parentId": 597
     },
@@ -5923,7 +5923,7 @@
         "id": 743,
         "path": "00000108188706419999019199011A",
         "name": "Valdymo blokas sėdynės ir atlošo reguliavimas",
-        "kiekis": 10,
+        "kiekis": 7,
         "ikelimas": "2024-04-02",
         "parentId": 597
     },
@@ -5939,8 +5939,8 @@
         "id": 745,
         "path": "000001081887064199990191990122",
         "name": "Valdymo blokas nuotolinis vartų valdymas",
-        "kiekis": 11,
-        "ikelimas": "2024-07-25",
+        "kiekis": 9,
+        "ikelimas": "2024-08-14",
         "parentId": 597
     },
     {
@@ -5948,22 +5948,22 @@
         "path": "000001081887064199990191990123",
         "name": "Valdymo blokas akumuliatoriaus stebėjimas",
         "kiekis": 35,
-        "ikelimas": "2024-06-17",
+        "ikelimas": "2024-08-13",
         "parentId": 597
     },
     {
         "id": 747,
         "path": "000001081887064199990191000001",
         "name": "Valdymo blokas parkavimo sistemos",
-        "kiekis": 174,
-        "ikelimas": "2024-08-01",
+        "kiekis": 170,
+        "ikelimas": "2024-08-13",
         "parentId": 597
     },
     {
         "id": 748,
         "path": "000001081887064199990191000002",
         "name": "Valdymo blokas navigacijos sistemos",
-        "kiekis": 39,
+        "kiekis": 38,
         "ikelimas": "2024-07-23",
         "parentId": 597
     },
@@ -5995,15 +5995,15 @@
         "id": 752,
         "path": "000001081887064199990191990126",
         "name": "Valdymo blokas 'Bluetooth'",
-        "kiekis": 192,
-        "ikelimas": "2024-07-21",
+        "kiekis": 187,
+        "ikelimas": "2024-08-14",
         "parentId": 597
     },
     {
         "id": 753,
         "path": "000001081887064199990191990134",
         "name": "Multimedijos sąsaja su valdymo bloku",
-        "kiekis": 65,
+        "kiekis": 63,
         "ikelimas": "2024-07-31",
         "parentId": 597
     },
@@ -6011,8 +6011,8 @@
         "id": 754,
         "path": "000001081887064199990189000001",
         "name": "Valdymo blokas durų",
-        "kiekis": 965,
-        "ikelimas": "2024-08-07",
+        "kiekis": 947,
+        "ikelimas": "2024-08-21",
         "parentId": 598
     },
     {
@@ -6035,7 +6035,7 @@
         "id": 757,
         "path": "000001081887064199990189990127",
         "name": "Valdymo blokas elektrinio stogo liuko valdymui",
-        "kiekis": 12,
+        "kiekis": 11,
         "ikelimas": "2024-02-28",
         "parentId": 598
     },
@@ -6043,16 +6043,16 @@
         "id": 758,
         "path": "00000108188706419999018999012A",
         "name": "Valdymo blokas bagažinės atidarymui",
-        "kiekis": 22,
-        "ikelimas": "2024-07-31",
+        "kiekis": 21,
+        "ikelimas": "2024-07-21",
         "parentId": 598
     },
     {
         "id": 759,
         "path": "00000108188706419999018999012B",
         "name": "Valdymo blokas bagažinės dangčio",
-        "kiekis": 101,
-        "ikelimas": "2024-08-07",
+        "kiekis": 100,
+        "ikelimas": "2024-08-13",
         "parentId": 598
     },
     {
@@ -6075,7 +6075,7 @@
         "id": 762,
         "path": "00000108188706419999019299011A",
         "name": "Valdymo blokas nuo nutempimo ir vagystės",
-        "kiekis": 38,
+        "kiekis": 37,
         "ikelimas": "2024-07-24",
         "parentId": 599
     },
@@ -6083,8 +6083,8 @@
         "id": 763,
         "path": "000001081887064199990192000002",
         "name": "Valdymo blokas beraktės sistemos",
-        "kiekis": 115,
-        "ikelimas": "2024-07-31",
+        "kiekis": 113,
+        "ikelimas": "2024-08-13",
         "parentId": 599
     },
     {
@@ -6099,7 +6099,7 @@
         "id": 765,
         "path": "00000108188706419B990196",
         "name": "Salono laidai",
-        "kiekis": 93,
+        "kiekis": 92,
         "ikelimas": "2024-05-29",
         "parentId": 464
     },
@@ -6107,7 +6107,7 @@
         "id": 766,
         "path": "000001990252990233990248",
         "name": "Laikiklis prietaisų skydo (panelės)",
-        "kiekis": 7,
+        "kiekis": 6,
         "ikelimas": "2024-05-16",
         "parentId": 490
     },
@@ -6131,7 +6131,7 @@
         "id": 769,
         "path": "000001990252990232",
         "name": "Durų panelė",
-        "kiekis": 47,
+        "kiekis": 45,
         "ikelimas": "2024-07-01",
         "parentId": 442
     },
@@ -6147,7 +6147,7 @@
         "id": 771,
         "path": "00000113186113178A",
         "name": "Buferis/dalys",
-        "kiekis": 49,
+        "kiekis": 47,
         "ikelimas": "2024-07-19",
         "parentId": 767
     },
@@ -6171,7 +6171,7 @@
         "id": 774,
         "path": "000001131861048846",
         "name": "Sparnas/dalys",
-        "kiekis": 15,
+        "kiekis": 14,
         "ikelimas": "2024-04-04",
         "parentId": 767
     },
@@ -6195,7 +6195,7 @@
         "id": 777,
         "path": "000001131861048845",
         "name": "Stoglangis/dalys",
-        "kiekis": 6,
+        "kiekis": 5,
         "ikelimas": "2024-07-29",
         "parentId": 767
     },
@@ -6203,8 +6203,8 @@
         "id": 778,
         "path": "000001131861097423",
         "name": "Veidrodėlis/dalys",
-        "kiekis": 38,
-        "ikelimas": "2024-07-17",
+        "kiekis": 40,
+        "ikelimas": "2024-08-14",
         "parentId": 767
     },
     {
@@ -6219,31 +6219,31 @@
         "id": 780,
         "path": "000001131861048173",
         "name": "Galinis spoileris",
-        "kiekis": 12,
-        "ikelimas": "2024-06-19",
+        "kiekis": 13,
+        "ikelimas": "2024-08-14",
         "parentId": 767
     },
     {
         "id": 781,
         "path": "000001131861990301",
         "name": "Apdailos/moldingai",
-        "kiekis": 1633,
-        "ikelimas": "2024-08-06",
+        "kiekis": 1635,
+        "ikelimas": "2024-08-21",
         "parentId": 767
     },
     {
         "id": 782,
         "path": "00000113186199030A",
         "name": "Slenksčio apdaila vidinė",
-        "kiekis": 98,
-        "ikelimas": "2024-07-18",
+        "kiekis": 100,
+        "ikelimas": "2024-08-08",
         "parentId": 767
     },
     {
         "id": 783,
         "path": "000001131861990309",
         "name": "Slenksčių apdaila",
-        "kiekis": 237,
+        "kiekis": 233,
         "ikelimas": "2024-07-23",
         "parentId": 767
     },
@@ -6251,8 +6251,8 @@
         "id": 784,
         "path": "000001131861990315",
         "name": "Kuro bako durelės",
-        "kiekis": 201,
-        "ikelimas": "2024-07-29",
+        "kiekis": 199,
+        "ikelimas": "2024-08-08",
         "parentId": 767
     },
     {
@@ -6339,8 +6339,8 @@
         "id": 795,
         "path": "000001990252990232990318",
         "name": "Durų panelė",
-        "kiekis": 194,
-        "ikelimas": "2024-08-01",
+        "kiekis": 190,
+        "ikelimas": "2024-08-19",
         "parentId": 769
     },
     {
@@ -6355,8 +6355,8 @@
         "id": 797,
         "path": "000001990252990232990234",
         "name": "Garsiakalbio grotelės",
-        "kiekis": 208,
-        "ikelimas": "2024-08-06",
+        "kiekis": 236,
+        "ikelimas": "2024-08-21",
         "parentId": 769
     },
     {
@@ -6371,7 +6371,7 @@
         "id": 799,
         "path": "000001131861097422990314",
         "name": "Kėbulo ketvirtis",
-        "kiekis": 147,
+        "kiekis": 144,
         "ikelimas": "2024-07-24",
         "parentId": 770
     },
@@ -6379,7 +6379,7 @@
         "id": 800,
         "path": "000001131861097422990313",
         "name": "Stogas",
-        "kiekis": 35,
+        "kiekis": 34,
         "ikelimas": "2024-07-03",
         "parentId": 770
     },
@@ -6387,24 +6387,24 @@
         "id": 801,
         "path": "000001131861097422990312",
         "name": "Išilginis elementas lonžeronas",
-        "kiekis": 13,
-        "ikelimas": "2024-06-16",
+        "kiekis": 14,
+        "ikelimas": "2024-08-08",
         "parentId": 770
     },
     {
         "id": 802,
         "path": "00000113186113178A990288",
         "name": "Buferis",
-        "kiekis": 355,
-        "ikelimas": "2024-08-08",
+        "kiekis": 351,
+        "ikelimas": "2024-08-14",
         "parentId": 771
     },
     {
         "id": 803,
         "path": "00000113186113178A99028A",
         "name": "Grotelės",
-        "kiekis": 300,
-        "ikelimas": "2024-08-01",
+        "kiekis": 299,
+        "ikelimas": "2024-08-14",
         "parentId": 771
     },
     {
@@ -6427,15 +6427,15 @@
         "id": 806,
         "path": "00000113186113178A990292",
         "name": "Laikiklis bamperio",
-        "kiekis": 677,
-        "ikelimas": "2024-08-01",
+        "kiekis": 679,
+        "ikelimas": "2024-08-13",
         "parentId": 771
     },
     {
         "id": 807,
         "path": "00000113186199029411328A",
         "name": "Priekinė panelė (televizorius)",
-        "kiekis": 50,
+        "kiekis": 52,
         "ikelimas": "2024-07-23",
         "parentId": 772
     },
@@ -6452,22 +6452,22 @@
         "path": "000001131861990294014012",
         "name": "Gaubto užraktas",
         "kiekis": 116,
-        "ikelimas": "2024-07-03",
+        "ikelimas": "2024-08-09",
         "parentId": 772
     },
     {
         "id": 810,
         "path": "000001131861990294990296",
         "name": "Laikiklis radiatoriaus",
-        "kiekis": 36,
-        "ikelimas": "2024-08-06",
+        "kiekis": 37,
+        "ikelimas": "2024-08-11",
         "parentId": 772
     },
     {
         "id": 811,
         "path": "000001131861990294990295",
         "name": "Laikiklis, priekinė panelė (televizorius)",
-        "kiekis": 43,
+        "kiekis": 48,
         "ikelimas": "2024-08-08",
         "parentId": 772
     },
@@ -6475,7 +6475,7 @@
         "id": 812,
         "path": "000001131861000003046934",
         "name": "Gaubtas",
-        "kiekis": 98,
+        "kiekis": 97,
         "ikelimas": "2024-08-08",
         "parentId": 773
     },
@@ -6483,7 +6483,7 @@
         "id": 813,
         "path": "000001131861000003113473",
         "name": "Lankstas, gaubtas",
-        "kiekis": 361,
+        "kiekis": 360,
         "ikelimas": "2024-07-25",
         "parentId": 773
     },
@@ -6499,8 +6499,8 @@
         "id": 815,
         "path": "000001131861000003113412",
         "name": "Dujinė spyruoklė, gaubtas",
-        "kiekis": 101,
-        "ikelimas": "2024-07-11",
+        "kiekis": 98,
+        "ikelimas": "2024-08-13",
         "parentId": 773
     },
     {
@@ -6515,32 +6515,32 @@
         "id": 817,
         "path": "000001131861048846015173",
         "name": "Sparnas",
-        "kiekis": 310,
-        "ikelimas": "2024-08-07",
+        "kiekis": 307,
+        "ikelimas": "2024-08-14",
         "parentId": 774
     },
     {
         "id": 818,
         "path": "000001131861048846990297",
         "name": "Posparnis",
-        "kiekis": 197,
-        "ikelimas": "2024-08-07",
+        "kiekis": 192,
+        "ikelimas": "2024-08-13",
         "parentId": 774
     },
     {
         "id": 819,
         "path": "000001131861048846990298",
         "name": "Laikiklis sparno",
-        "kiekis": 54,
-        "ikelimas": "2024-08-06",
+        "kiekis": 50,
+        "ikelimas": "2024-08-13",
         "parentId": 774
     },
     {
         "id": 820,
         "path": "000001131861065234047105",
         "name": "Durys",
-        "kiekis": 916,
-        "ikelimas": "2024-08-07",
+        "kiekis": 894,
+        "ikelimas": "2024-08-14",
         "parentId": 775
     },
     {
@@ -6555,7 +6555,7 @@
         "id": 822,
         "path": "000001131861065234047106",
         "name": "Durų lankstas",
-        "kiekis": 149,
+        "kiekis": 145,
         "ikelimas": "2024-07-11",
         "parentId": 775
     },
@@ -6563,7 +6563,7 @@
         "id": 823,
         "path": "000001131861065234030862",
         "name": "Durų rankenėlė",
-        "kiekis": 690,
+        "kiekis": 684,
         "ikelimas": "2024-08-07",
         "parentId": 775
     },
@@ -6571,7 +6571,7 @@
         "id": 824,
         "path": "000001131861065234030425",
         "name": "Durų rankenėlė, vidaus",
-        "kiekis": 82,
+        "kiekis": 81,
         "ikelimas": "2024-07-17",
         "parentId": 775
     },
@@ -6587,15 +6587,15 @@
         "id": 826,
         "path": "000001131861065234130371",
         "name": "Lango pakėliklis",
-        "kiekis": 811,
-        "ikelimas": "2024-07-26",
+        "kiekis": 809,
+        "ikelimas": "2024-08-21",
         "parentId": 775
     },
     {
         "id": 827,
         "path": "000001131861065234990179",
         "name": "Variklis durų uždarymo",
-        "kiekis": 20,
+        "kiekis": 19,
         "ikelimas": "2024-05-31",
         "parentId": 775
     },
@@ -6603,7 +6603,7 @@
         "id": 828,
         "path": "000001131861990300081887",
         "name": "Bagažinės dangtis",
-        "kiekis": 324,
+        "kiekis": 314,
         "ikelimas": "2024-08-07",
         "parentId": 776
     },
@@ -6611,7 +6611,7 @@
         "id": 829,
         "path": "000001131861990300990301",
         "name": "Bagažinės dangčio vyriai",
-        "kiekis": 89,
+        "kiekis": 83,
         "ikelimas": "2024-07-07",
         "parentId": 776
     },
@@ -6627,8 +6627,8 @@
         "id": 831,
         "path": "000001131861990300046944",
         "name": "Dujinė spyruoklė",
-        "kiekis": 375,
-        "ikelimas": "2024-08-07",
+        "kiekis": 376,
+        "ikelimas": "2024-08-13",
         "parentId": 776
     },
     {
@@ -6643,7 +6643,7 @@
         "id": 833,
         "path": "000001131861990300990303",
         "name": "Rankenėlė bagažinės dangčio",
-        "kiekis": 31,
+        "kiekis": 30,
         "ikelimas": "2024-07-09",
         "parentId": 776
     },
@@ -6659,8 +6659,8 @@
         "id": 835,
         "path": "000001131861990300081868",
         "name": "Valstybinio numerio apšvietimas",
-        "kiekis": 66,
-        "ikelimas": "2024-08-05",
+        "kiekis": 65,
+        "ikelimas": "2024-08-08",
         "parentId": 776
     },
     {
@@ -6668,14 +6668,14 @@
         "path": "000001131861990300081885",
         "name": "Valstybinio numerio laikiklis/rėmelis",
         "kiekis": 15,
-        "ikelimas": "2024-07-23",
+        "ikelimas": "2024-08-13",
         "parentId": 776
     },
     {
         "id": 837,
         "path": "000001131861048845000001",
         "name": "Stoglangis",
-        "kiekis": 75,
+        "kiekis": 74,
         "ikelimas": "2024-07-24",
         "parentId": 777
     },
@@ -6691,8 +6691,8 @@
         "id": 839,
         "path": "000001131861097423064049",
         "name": "Išorinis veidrodėlis",
-        "kiekis": 848,
-        "ikelimas": "2024-07-31",
+        "kiekis": 863,
+        "ikelimas": "2024-08-21",
         "parentId": 778
     },
     {
@@ -6700,7 +6700,7 @@
         "path": "00000113186109742306404A",
         "name": "Veidrodėlio stiklas",
         "kiekis": 23,
-        "ikelimas": "2024-07-25",
+        "ikelimas": "2024-08-08",
         "parentId": 778
     },
     {
@@ -6739,8 +6739,8 @@
         "id": 845,
         "path": "000001131861064298014531",
         "name": "Priekinis stiklas",
-        "kiekis": 67,
-        "ikelimas": "2024-08-06",
+        "kiekis": 65,
+        "ikelimas": "2024-07-19",
         "parentId": 779
     },
     {
@@ -6756,63 +6756,63 @@
         "path": "000001131861064298030278",
         "name": "Durų langas",
         "kiekis": 128,
-        "ikelimas": "2024-07-23",
+        "ikelimas": "2024-08-08",
         "parentId": 779
     },
     {
         "id": 848,
         "path": "000001131861064298063942",
         "name": "Šoninis langas",
-        "kiekis": 114,
-        "ikelimas": "2024-07-04",
+        "kiekis": 121,
+        "ikelimas": "2024-08-13",
         "parentId": 779
     },
     {
         "id": 849,
         "path": "000001131861064298063943",
         "name": "Galinis Stiklas",
-        "kiekis": 59,
-        "ikelimas": "2024-07-19",
+        "kiekis": 61,
+        "ikelimas": "2024-08-08",
         "parentId": 779
     },
     {
         "id": 850,
         "path": "000001131861064298065181",
         "name": "Fiksuotas durelių stiklas",
-        "kiekis": 236,
-        "ikelimas": "2024-07-25",
+        "kiekis": 231,
+        "ikelimas": "2024-08-21",
         "parentId": 779
     },
     {
         "id": 851,
         "path": "000001131861031957047405",
         "name": "Priekinis žibintas",
-        "kiekis": 353,
-        "ikelimas": "2024-08-01",
+        "kiekis": 348,
+        "ikelimas": "2024-08-16",
         "parentId": 785
     },
     {
         "id": 852,
         "path": "000001131861031957030742",
         "name": "Rūko žibintas",
-        "kiekis": 311,
-        "ikelimas": "2024-07-16",
+        "kiekis": 314,
+        "ikelimas": "2024-08-19",
         "parentId": 785
     },
     {
         "id": 853,
         "path": "000001131861031957015766",
         "name": "Galinis žibintas",
-        "kiekis": 1858,
-        "ikelimas": "2024-08-08",
+        "kiekis": 1847,
+        "ikelimas": "2024-08-21",
         "parentId": 785
     },
     {
         "id": 854,
         "path": "000001131861031957990305",
         "name": "Posūkio signalas",
-        "kiekis": 148,
-        "ikelimas": "2024-07-08",
+        "kiekis": 146,
+        "ikelimas": "2024-08-13",
         "parentId": 785
     },
     {
@@ -6820,15 +6820,15 @@
         "path": "000001131861031957990306",
         "name": "Stabdžių žibintas",
         "kiekis": 183,
-        "ikelimas": "2024-07-11",
+        "ikelimas": "2024-08-18",
         "parentId": 785
     },
     {
         "id": 856,
         "path": "000001131861031957015765",
         "name": "Galinis rūko žibintas",
-        "kiekis": 46,
-        "ikelimas": "2024-07-11",
+        "kiekis": 47,
+        "ikelimas": "2024-08-09",
         "parentId": 785
     },
     {
@@ -6843,8 +6843,8 @@
         "id": 858,
         "path": "000001990252990326",
         "name": "Galinio vaizdo veidrodėlis",
-        "kiekis": 440,
-        "ikelimas": "2024-08-06",
+        "kiekis": 433,
+        "ikelimas": "2024-08-19",
         "parentId": 442
     },
     {
@@ -6859,7 +6859,7 @@
         "id": 860,
         "path": "000001990252990327",
         "name": "Laikiklis apdailai",
-        "kiekis": 601,
+        "kiekis": 600,
         "ikelimas": "2024-07-22",
         "parentId": 442
     },
@@ -6867,24 +6867,24 @@
         "id": 861,
         "path": "000001081888990055",
         "name": "Užvedimo spynelė",
-        "kiekis": 380,
-        "ikelimas": "2024-08-01",
+        "kiekis": 372,
+        "ikelimas": "2024-08-19",
         "parentId": 234
     },
     {
         "id": 862,
-        "path": "000001081887990203",
+        "path": "000001081887990202",
         "name": "oro pagalvės ritė",
-        "kiekis": 210,
-        "ikelimas": "2024-08-07",
+        "kiekis": 203,
+        "ikelimas": "2024-08-13",
         "parentId": 440
     },
     {
         "id": 863,
         "path": "000001065249000001990046",
         "name": "Vairo stiprintuvo valdymo blokas",
-        "kiekis": 60,
-        "ikelimas": "2024-07-31",
+        "kiekis": 55,
+        "ikelimas": "2024-08-08",
         "parentId": 248
     },
     {
@@ -6932,15 +6932,15 @@
         "path": "000001990252990232990319",
         "name": "Durų lango užuolaida",
         "kiekis": 36,
-        "ikelimas": "2024-08-06",
+        "ikelimas": "2024-08-19",
         "parentId": 769
     },
     {
         "id": 870,
         "path": "000001081887064199990191990136",
         "name": "Vairo stiprintuvo valdymo blokas",
-        "kiekis": 63,
-        "ikelimas": "2024-07-31",
+        "kiekis": 59,
+        "ikelimas": "2024-08-08",
         "parentId": 597
     },
     {
@@ -6979,8 +6979,8 @@
         "id": 875,
         "path": "000001115133990358",
         "name": "traversas",
-        "kiekis": 249,
-        "ikelimas": "2024-07-25",
+        "kiekis": 240,
+        "ikelimas": "2024-08-13",
         "parentId": 872
     },
     {
@@ -7003,16 +7003,16 @@
         "id": 878,
         "path": "000001115133014017",
         "name": "rato guolis",
-        "kiekis": 45,
-        "ikelimas": "2024-07-05",
+        "kiekis": 43,
+        "ikelimas": "2024-08-12",
         "parentId": 872
     },
     {
         "id": 879,
         "path": "000001115133080565",
         "name": "rato guolio korpusas",
-        "kiekis": 532,
-        "ikelimas": "2024-08-07",
+        "kiekis": 538,
+        "ikelimas": "2024-08-21",
         "parentId": 872
     },
     {
@@ -7059,15 +7059,15 @@
         "id": 885,
         "path": "000001131861065234990337",
         "name": "B-atrama išorinė",
-        "kiekis": 60,
-        "ikelimas": "2024-07-05",
+        "kiekis": 59,
+        "ikelimas": "2024-08-05",
         "parentId": 775
     },
     {
         "id": 886,
         "path": "000001131861065234990338",
         "name": "Durų stiklo rėmo apdaila",
-        "kiekis": 158,
+        "kiekis": 157,
         "ikelimas": "2024-08-08",
         "parentId": 775
     },
@@ -7083,7 +7083,7 @@
         "id": 888,
         "path": "000001990252990233990340",
         "name": "Panelės šoninė apdaila",
-        "kiekis": 101,
+        "kiekis": 96,
         "ikelimas": "2024-07-11",
         "parentId": 490
     },
@@ -7099,15 +7099,15 @@
         "id": 890,
         "path": "000001115133990356990381",
         "name": "ašies galas",
-        "kiekis": 1,
-        "ikelimas": "2024-08-05",
+        "kiekis": 0,
+        "ikelimas": "-",
         "parentId": 873
     },
     {
         "id": 891,
         "path": "000001115133990356990380",
         "name": "galinis tiltas (balkis)",
-        "kiekis": 202,
+        "kiekis": 200,
         "ikelimas": "2024-08-07",
         "parentId": 873
     },
@@ -7115,7 +7115,7 @@
         "id": 892,
         "path": "00000111513399035604873A",
         "name": "Galinė lenkta pakabos svirtis",
-        "kiekis": 18,
+        "kiekis": 17,
         "ikelimas": "2024-05-21",
         "parentId": 873
     },
@@ -7123,7 +7123,7 @@
         "id": 893,
         "path": "000001115133990356048738",
         "name": "Vairo traukė/antgalis",
-        "kiekis": 66,
+        "kiekis": 60,
         "ikelimas": "2024-05-07",
         "parentId": 873
     },
@@ -7131,8 +7131,8 @@
         "id": 894,
         "path": "000001115133990356048736",
         "name": "Galinė  Apatinė šakė",
-        "kiekis": 191,
-        "ikelimas": "2024-06-04",
+        "kiekis": 187,
+        "ikelimas": "2024-08-21",
         "parentId": 873
     },
     {
@@ -7147,7 +7147,7 @@
         "id": 897,
         "path": "000001115133080566000006",
         "name": "Priekinė  apatinė tiesi šakė",
-        "kiekis": 57,
+        "kiekis": 54,
         "ikelimas": "2024-07-29",
         "parentId": 874
     },
@@ -7155,7 +7155,7 @@
         "id": 898,
         "path": "000001115133080566000005",
         "name": "Priekinė  apatinė lenkta šakė",
-        "kiekis": 117,
+        "kiekis": 116,
         "ikelimas": "2024-08-07",
         "parentId": 874
     },
@@ -7163,24 +7163,24 @@
         "id": 899,
         "path": "000001115133080566000004",
         "name": "Priekinė  apatinė šakė",
-        "kiekis": 155,
-        "ikelimas": "2024-08-07",
+        "kiekis": 160,
+        "ikelimas": "2024-08-20",
         "parentId": 874
     },
     {
         "id": 900,
         "path": "000001115133080566000003",
         "name": "Priekinė viršutinė šakė",
-        "kiekis": 79,
-        "ikelimas": "2024-08-01",
+        "kiekis": 78,
+        "ikelimas": "2024-08-12",
         "parentId": 874
     },
     {
         "id": 901,
         "path": "000001115133990356000003",
         "name": "spyruoklė",
-        "kiekis": 44,
-        "ikelimas": "2024-07-24",
+        "kiekis": 39,
+        "ikelimas": "2024-08-12",
         "parentId": 873
     },
     {
@@ -7196,7 +7196,7 @@
         "path": "000001115133990366015785",
         "name": "stabilizatorius",
         "kiekis": 77,
-        "ikelimas": "2024-08-08",
+        "ikelimas": "2024-08-09",
         "parentId": 880
     },
     {
@@ -7219,8 +7219,8 @@
         "id": 906,
         "path": "000001115133990366115404",
         "name": "aktyvus stabilizatorius",
-        "kiekis": 11,
-        "ikelimas": "2024-08-08",
+        "kiekis": 10,
+        "ikelimas": "2024-08-09",
         "parentId": 880
     },
     {
@@ -7235,24 +7235,24 @@
         "id": 908,
         "path": "000001115133990372990109",
         "name": "amortizatoriaus komplektas",
-        "kiekis": 377,
-        "ikelimas": "2024-08-07",
+        "kiekis": 381,
+        "ikelimas": "2024-08-21",
         "parentId": 881
     },
     {
         "id": 909,
         "path": "000001115133990372030306",
         "name": "amortizatorius",
-        "kiekis": 365,
-        "ikelimas": "2024-08-08",
+        "kiekis": 366,
+        "ikelimas": "2024-08-20",
         "parentId": 881
     },
     {
         "id": 910,
         "path": "000001115133990372990374",
         "name": "spyruoklė",
-        "kiekis": 26,
-        "ikelimas": "2024-07-29",
+        "kiekis": 25,
+        "ikelimas": "2024-08-20",
         "parentId": 881
     },
     {
@@ -7267,7 +7267,7 @@
         "id": 912,
         "path": "000001115133990372097335",
         "name": "amortizatoriaus laikiklis",
-        "kiekis": 24,
+        "kiekis": 23,
         "ikelimas": "2024-07-03",
         "parentId": 881
     },
@@ -7291,7 +7291,7 @@
         "id": 915,
         "path": "000001115133990372990106",
         "name": "Valdymo blokas automatinis aukščio reguliavimas",
-        "kiekis": 12,
+        "kiekis": 11,
         "ikelimas": "2024-06-21",
         "parentId": 881
     },
@@ -7307,8 +7307,8 @@
         "id": 917,
         "path": "000001115133990375990376",
         "name": "amortizatorius su pneumatine spyruokle",
-        "kiekis": 81,
-        "ikelimas": "2024-08-07",
+        "kiekis": 84,
+        "ikelimas": "2024-08-20",
         "parentId": 882
     },
     {
@@ -7355,7 +7355,7 @@
         "id": 923,
         "path": "000001115133990375015042",
         "name": "Jutiklis, pneumatinės pakabos lygis",
-        "kiekis": 53,
+        "kiekis": 52,
         "ikelimas": "2024-07-16",
         "parentId": 882
     },
@@ -7435,7 +7435,7 @@
         "id": 933,
         "path": "000001990272000001",
         "name": "Įvesties įrenginys",
-        "kiekis": 223,
+        "kiekis": 218,
         "ikelimas": "2024-08-07",
         "parentId": 441
     },
@@ -7451,8 +7451,8 @@
         "id": 935,
         "path": "000001081887064199990384",
         "name": "valdymo blokas",
-        "kiekis": 1197,
-        "ikelimas": "2024-08-07",
+        "kiekis": 1169,
+        "ikelimas": "2024-08-13",
         "parentId": 462
     },
     {
@@ -7500,7 +7500,7 @@
         "path": "000001081887115168014632",
         "name": "Temperatūros jungiklis, oro kondicionieriaus ventiliatorius",
         "kiekis": 14,
-        "ikelimas": "2024-04-26",
+        "ikelimas": "2024-08-13",
         "parentId": 463
     },
     {
@@ -7515,7 +7515,7 @@
         "id": 943,
         "path": "000001990252990233990385",
         "name": "Puodelių laikiklis",
-        "kiekis": 114,
+        "kiekis": 113,
         "ikelimas": "2024-07-11",
         "parentId": 490
     },
@@ -7523,8 +7523,8 @@
         "id": 944,
         "path": "000001015709013805131703",
         "name": "Purkštukas",
-        "kiekis": 441,
-        "ikelimas": "2024-08-06",
+        "kiekis": 437,
+        "ikelimas": "2024-08-21",
         "parentId": 38
     },
     {
@@ -7539,7 +7539,7 @@
         "id": 946,
         "path": "000001081887064199990191990326",
         "name": "Priekinių žibintų šviesos kontrolės valdymo blokas",
-        "kiekis": 319,
+        "kiekis": 315,
         "ikelimas": "2024-07-12",
         "parentId": 597
     },
@@ -7547,23 +7547,23 @@
         "id": 947,
         "path": "000001081887064199990191990327",
         "name": "Šviesų valdymo blokas",
-        "kiekis": 355,
-        "ikelimas": "2024-08-08",
+        "kiekis": 346,
+        "ikelimas": "2024-08-13",
         "parentId": 597
     },
     {
         "id": 948,
         "path": "000001990025015837098711097055",
         "name": "Variklio skyriaus laidai",
-        "kiekis": 236,
-        "ikelimas": "2024-08-05",
+        "kiekis": 235,
+        "ikelimas": "2024-08-11",
         "parentId": 133
     },
     {
         "id": 949,
         "path": "000001990025015837098711097056",
         "name": "Akumuliatoriaus laidai",
-        "kiekis": 155,
+        "kiekis": 154,
         "ikelimas": "2024-07-16",
         "parentId": 133
     },
@@ -7595,23 +7595,23 @@
         "id": 953,
         "path": "000001990025015837098711990196",
         "name": "Salono laidai",
-        "kiekis": 160,
-        "ikelimas": "2024-08-05",
+        "kiekis": 159,
+        "ikelimas": "2024-08-13",
         "parentId": 133
     },
     {
         "id": 954,
         "path": "000001131861990417",
         "name": "Priekabos kablio komplektas",
-        "kiekis": 48,
-        "ikelimas": "2024-07-16",
+        "kiekis": 47,
+        "ikelimas": "2024-08-09",
         "parentId": 767
     },
     {
         "id": 955,
         "path": "000001131863",
         "name": "Ratlankiai, Padangos",
-        "kiekis": 14,
+        "kiekis": 12,
         "ikelimas": "2024-06-09",
         "parentId": 1
     },
@@ -7619,16 +7619,16 @@
         "id": 956,
         "path": "000001131863000005",
         "name": "Plieninis ratlankis",
-        "kiekis": 11,
-        "ikelimas": "2024-05-28",
+        "kiekis": 12,
+        "ikelimas": "2024-08-09",
         "parentId": 955
     },
     {
         "id": 957,
         "path": "000001131863000006",
         "name": "Aliuminis ratlankis",
-        "kiekis": 348,
-        "ikelimas": "2024-08-08",
+        "kiekis": 342,
+        "ikelimas": "2024-08-19",
         "parentId": 955
     },
     {
@@ -7643,7 +7643,7 @@
         "id": 959,
         "path": "000001131863000009",
         "name": "Atsarginis Ratas",
-        "kiekis": 53,
+        "kiekis": 50,
         "ikelimas": "2024-07-31",
         "parentId": 955
     },
@@ -7651,7 +7651,7 @@
         "id": 960,
         "path": "000001990252115220990336",
         "name": "Sėdynių komplektas",
-        "kiekis": 88,
+        "kiekis": 87,
         "ikelimas": "2024-08-07",
         "parentId": 480
     },
@@ -7667,15 +7667,15 @@
         "id": 962,
         "path": "00000113186113178A990294",
         "name": "Buferio Balkis",
-        "kiekis": 250,
-        "ikelimas": "2024-08-08",
+        "kiekis": 242,
+        "ikelimas": "2024-08-12",
         "parentId": 771
     },
     {
         "id": 963,
         "path": "000001081887064199990191990125",
         "name": "Valdymo blokas belaidis įkrovimas",
-        "kiekis": 27,
+        "kiekis": 26,
         "ikelimas": "2024-08-06",
         "parentId": 597
     },
@@ -7691,7 +7691,7 @@
         "id": 965,
         "path": "00000108188706419B990199",
         "name": "Įkrovimo kabelis",
-        "kiekis": 26,
+        "kiekis": 25,
         "ikelimas": "2024-07-12",
         "parentId": 464
     },
@@ -7699,8 +7699,8 @@
         "id": 966,
         "path": "000001131861990418",
         "name": "Tempimo kilpa",
-        "kiekis": 23,
-        "ikelimas": "2024-07-05",
+        "kiekis": 25,
+        "ikelimas": "2024-08-13",
         "parentId": 767
     },
     {
@@ -7715,24 +7715,24 @@
         "id": 970,
         "path": "000001131861990294990298",
         "name": "Dugno Apsauga",
-        "kiekis": 148,
-        "ikelimas": "2024-08-05",
+        "kiekis": 153,
+        "ikelimas": "2024-08-14",
         "parentId": 772
     },
     {
         "id": 972,
         "path": "000001081887990204",
         "name": "Inverteris",
-        "kiekis": 141,
-        "ikelimas": "2024-07-22",
+        "kiekis": 156,
+        "ikelimas": "2024-08-21",
         "parentId": 440
     },
     {
         "id": 973,
         "path": "000001131861990301990421",
         "name": "Valytuvo Apdaila (vėtravykas)",
-        "kiekis": 48,
-        "ikelimas": "2024-07-22",
+        "kiekis": 49,
+        "ikelimas": "2024-08-13",
         "parentId": 781
     },
     {
@@ -7747,7 +7747,7 @@
         "id": 977,
         "path": "000001015709013805096895000001",
         "name": "Adblue Bakas",
-        "kiekis": 25,
+        "kiekis": 24,
         "ikelimas": "2024-08-07",
         "parentId": 202
     },
@@ -7755,7 +7755,7 @@
         "id": 978,
         "path": "000001990025015837000001",
         "name": "Akumuliatoriaus padas",
-        "kiekis": 62,
+        "kiekis": 61,
         "ikelimas": "2024-07-30",
         "parentId": 17
     },
@@ -7779,23 +7779,23 @@
         "id": 981,
         "path": "00000108188706419B000001",
         "name": "Laidai",
-        "kiekis": 163,
-        "ikelimas": "2024-07-30",
+        "kiekis": 164,
+        "ikelimas": "2024-08-19",
         "parentId": 464
     },
     {
         "id": 982,
         "path": "00000101570A000002000001",
         "name": "Aktyviosios anglies filtras",
-        "kiekis": 65,
-        "ikelimas": "2024-08-07",
+        "kiekis": 64,
+        "ikelimas": "2024-08-13",
         "parentId": 18
     },
     {
         "id": 983,
         "path": "000001115133990366000001",
         "name": "Varžtas",
-        "kiekis": 28,
+        "kiekis": 26,
         "ikelimas": "2024-07-29",
         "parentId": 880
     },
@@ -7811,7 +7811,7 @@
         "id": 985,
         "path": "000001131861097422000001",
         "name": "Stogo Strypai (Ragai)",
-        "kiekis": 24,
+        "kiekis": 23,
         "ikelimas": "2024-07-19",
         "parentId": 770
     },
@@ -7859,7 +7859,7 @@
         "id": 991,
         "path": "000001131861031957000001",
         "name": "Laikiklis  Žibintui",
-        "kiekis": 14,
+        "kiekis": 13,
         "ikelimas": "2024-07-25",
         "parentId": 785
     },
@@ -7867,16 +7867,16 @@
         "id": 992,
         "path": "000001115133990357",
         "name": "Galinė viršutinė šakė",
-        "kiekis": 1,
-        "ikelimas": "2024-05-29",
+        "kiekis": 2,
+        "ikelimas": "2024-08-08",
         "parentId": 872
     },
     {
         "id": 997,
         "path": "000001115133080566000001",
         "name": "Priekinės pakabos komplektas (kelmas)",
-        "kiekis": 27,
-        "ikelimas": "2024-07-24",
+        "kiekis": 28,
+        "ikelimas": "2024-08-13",
         "parentId": 874
     },
     {
@@ -7891,8 +7891,8 @@
         "id": 999,
         "path": "00000101348400000500000E",
         "name": "Duslintuvo Antgalis",
-        "kiekis": 0,
-        "ikelimas": "-",
+        "kiekis": 1,
+        "ikelimas": "2024-08-08",
         "parentId": 27
     },
     {
@@ -7907,7 +7907,7 @@
         "id": 1001,
         "path": "000001131861990294000001",
         "name": "Krovinio kabina/Kuzovas",
-        "kiekis": 2,
+        "kiekis": 1,
         "ikelimas": "2024-07-24",
         "parentId": 772
     }
