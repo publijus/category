@@ -13,7 +13,7 @@ const Category = ({ category, moveCategory, toggleCollapse, collapsed, hasChildr
   const [, drop] = useDrop({
     accept: 'CATEGORY',
     drop: (item, monitor) => {
-      if (!monitor.didDrop()) {
+      if (item.id !== category.id && !monitor.didDrop()) { 
         moveCategory(item.id, null, category.id);
       }
     }
